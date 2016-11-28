@@ -9,6 +9,7 @@
     <sprite>sprites\sprPlayer</sprite>
     <sprite>sprites\sprPlanet</sprite>
     <sprite>sprites\sprPlanet1</sprite>
+    <sprite>sprites\sprTest</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
