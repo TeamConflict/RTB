@@ -53,4 +53,6 @@ Configs/Default/WindowsUAP/logos/StoreLogo.scale-100.png
 Configs/Default/iOS/iPhonesplash.png
 Configs/Default/Linux/icon64.png
 Configs/Default/*
-Configs\*
+Configs/*
+Configs/Default.config.gmx
+
