@@ -13,11 +13,12 @@
     <sprite>sprites\sprMoon</sprite>
     <sprite>sprites\sprRockPlanet</sprite>
     <sprite>sprites\sprTest</sprite>
-    <sprite>sprites\sprite5</sprite>
-    <sprite>sprites\sprite6</sprite>
-    <sprite>sprites\sprite7</sprite>
-    <sprite>sprites\sprite9</sprite>
+    <sprite>sprites\sprAsteroid1</sprite>
+    <sprite>sprites\sprAsteroid2</sprite>
+    <sprite>sprites\sprAsteroid3</sprite>
+    <sprite>sprites\sprRedPlanet</sprite>
     <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\sprSaturn</sprite>
     <sprite>sprites\sprite13</sprite>
   </sprites>
   <backgrounds name="background"/>
