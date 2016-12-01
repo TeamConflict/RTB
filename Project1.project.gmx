@@ -17,7 +17,6 @@
     <sprite>sprites\sprAsteroid3</sprite>
     <sprite>sprites\sprRedPlanet</sprite>
     <sprite>sprites\sprSaturn</sprite>
-    <sprite>sprites\sprite13</sprite>
     <sprite>sprites\sprMossPortrait</sprite>
   </sprites>
   <backgrounds name="background"/>

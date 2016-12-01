@@ -63,14 +63,14 @@ physics_fixture_delete(phyPlayer);
 physics_apply_force(x,y,0,-25);
 
 with (objPlanet) {
-    dist = point_distance(x,y,other.x,other.y);
+    dist = (point_distance(x,y,other.x,other.y) - (sprite_get_width(sprMoon)/2));
     dir = point_direction(other.x,other.y,x,y);
     show_debug_message(dist);
-    if (dist &lt; 200 &amp;&amp; dist &gt; 100) {
+    if (dist &lt;= 200 &amp;&amp; dist &gt;= 100) {
         dx = lengthdir_x(10,dir);
         dy = lengthdir_y(10,dir);
     }
-    else if (dist &lt; 100 &amp;&amp; dist &gt; 50) {
+    else if (dist &lt; 100 &amp;&amp; dist &gt;= 50) {
         dx = lengthdir_x(20,dir);
         dy = lengthdir_y(20,dir);   
     }
@@ -89,14 +89,14 @@ with (objPlanet) {
 }
 
 with (objPlanet1) {
-    dist = point_distance(x,y,other.x,other.y);
+    dist = (point_distance(x,y,other.x,other.y) - (sprite_get_width(sprEarth) / 2));
     dir = point_direction(other.x,other.y,x,y);
     
-    if (dist &lt; 200 &amp;&amp; dist &gt; 100) {
+    if (dist &lt;= 200 &amp;&amp; dist &gt;= 100) {
         dx = lengthdir_x(20,dir);
         dy = lengthdir_y(20,dir);
     }
-    else if (dist &lt; 100  &amp;&amp; dist &gt; 50) {
+    else if (dist &lt; 100  &amp;&amp; dist &gt;= 50) {
         dx = lengthdir_x(40,dir);
         dy = lengthdir_y(40,dir);   
     }
