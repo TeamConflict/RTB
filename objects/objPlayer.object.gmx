@@ -73,10 +73,14 @@ with (objPlanet) {
     else if (dist &lt; 100 &amp;&amp; dist &gt;= 50) {
         dx = lengthdir_x(20,dir);
         dy = lengthdir_y(20,dir);   
-    }
-    else if (dist &lt; 50) {
+    }/*
+    else if (dist &lt; 50 &amp;&amp; dist &gt; 20) {
         dx = lengthdir_x(40,dir);
         dy = lengthdir_y(40,dir);   
+    }*/
+    else if (dist &lt;= 18) {
+        dx = lengthdir_x(50,dir);
+        dy = lengthdir_y(50,dir);    
     }
     else {
         dx = 0;
