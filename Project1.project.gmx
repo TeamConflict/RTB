@@ -30,10 +30,10 @@
     <background>background\bkgSpace2</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\fntPaperland</font>
     <font>fonts\fntSugarpunch</font>
+    <font>fonts\fntHTDS</font>
   </fonts>
   <objects name="objects">
     <object>objects\objControl</object>

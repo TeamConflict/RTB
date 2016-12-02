@@ -28,7 +28,7 @@
             <string>draw_set_alpha(1);
 draw_set_font(fntPaperland);
 draw_set_colour(c_red);
-draw_text(room_width/3,room_height-100,"Press Spacebar");
+draw_text(room_width/2-130,room_height-100,"Press Spacebar");
 </string>
           </argument>
         </arguments>

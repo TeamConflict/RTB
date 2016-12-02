@@ -31,7 +31,7 @@
 draw_set_alpha(1);
 
 //Set font from resource
-draw_set_font(fntSugarpunch);
+draw_set_font(fntHTDS);
 
 draw_set_colour(c_lime);
 draw_text(room_width/4+40,(room_height/3)-150,"Renegade");
@@ -40,7 +40,7 @@ draw_set_colour(c_purple);
 draw_text(room_width/4,room_height/3,"Tardigrade");
 
 draw_set_colour(c_orange);
-draw_text(room_width/4+60,(room_height/3)+150,"Brigade");
+draw_text(room_width/4+60,(room_height/3)+150,"Brigade!");
 
 </string>
           </argument>
