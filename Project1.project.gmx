@@ -21,18 +21,16 @@
     <sprite>sprites\sprSelectArea</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background9</background>
-    <background>background\background0</background>
-    <background>background\background1</background>
-    <background>background\background2</background>
-    <background>background\background3</background>
-    <background>background\background4</background>
-    <background>background\background5</background>
-    <background>background\background6</background>
-    <background>background\background7</background>
-    <background>background\background8</background>
+    <background>background\bkgStars</background>
+    <background>background\bkgBlueStars</background>
+    <background>background\bkgPixelStars</background>
+    <background>background\bkgSmallStars</background>
+    <background>background\bkgSpace</background>
+    <background>background\bkgColourSpace</background>
+    <background>background\bkgSpace2</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\fntPaperland</font>
     <font>fonts\fntSugarpunch</font>
@@ -44,8 +42,12 @@
     <object>objects\objPlanet1</object>
     <object>objects\objAsteroid1</object>
     <object>objects\objSelect</object>
+    <object>objects\objMossPortrait</object>
+    <object>objects\objTitle</object>
+    <object>objects\objSpacebar</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rmSplash</room>
     <room>rooms\rmSpace</room>
   </rooms>
   <help>
