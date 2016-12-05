@@ -19,6 +19,8 @@
     <sprite>sprites\sprSaturn</sprite>
     <sprite>sprites\sprMossPortrait</sprite>
     <sprite>sprites\sprSelectArea</sprite>
+    <sprite>sprites\sprPlay</sprite>
+    <sprite>sprites\sprPlayDark</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
@@ -30,6 +32,10 @@
     <background>background\bkgSpace2</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\getPhysicsEnabled.gml</script>
+    <script>scripts\setPhysicsEnabled.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fntPaperland</font>
     <font>fonts\fntSugarpunch</font>
@@ -45,6 +51,7 @@
     <object>objects\objMossPortrait</object>
     <object>objects\objTitle</object>
     <object>objects\objSpacebar</object>
+    <object>objects\objPlay</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>

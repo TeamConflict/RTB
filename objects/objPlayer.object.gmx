@@ -26,15 +26,15 @@
           <argument>
             <kind>1</kind>
             <string>///Creating player physics properties
-var phyPlayer;
-phyPlayer = physics_fixture_create();
-physics_fixture_set_circle_shape(phyPlayer, sprite_get_width(sprPlayer) / 2);
-physics_fixture_set_density(phyPlayer, 1.0);
-physics_fixture_set_collision_group(phyPlayer, 1);
-physics_fixture_set_friction(phyPlayer, 0.5)
-physics_fixture_bind(phyPlayer, id);
-physics_mass_properties(5, 0, 0, 0);
-physics_fixture_delete(phyPlayer);
+//var phyPlayer;
+//phyPlayer = physics_fixture_create();
+//physics_fixture_set_circle_shape(phyPlayer, sprite_get_width(sprPlayer) / 2);
+//physics_fixture_set_density(phyPlayer, 1.0);
+//physics_fixture_set_collision_group(phyPlayer, 1);
+//physics_fixture_set_friction(phyPlayer, 0.5)
+//physics_fixture_bind(phyPlayer, id);
+//physics_mass_properties(5, 0, 0, 0);
+//physics_fixture_delete(phyPlayer);
 </string>
           </argument>
         </arguments>
@@ -60,6 +60,7 @@ physics_fixture_delete(phyPlayer);
             <string>///Handling gravity
 
 //Applying force to counter act the room gravity
+while(getPhysicsEnabled){
 physics_apply_force(x,y,0,-25);
 
 with (objPlanet) {
@@ -116,6 +117,7 @@ with (objPlanet1) {
     with (objPlayer) {
         physics_apply_force(x,y,other.dx,other.dy);
     }
+}
 }
 </string>
           </argument>
@@ -211,7 +213,7 @@ with (objPlanet1) {
           <argument>
             <kind>1</kind>
             <string>///Applying initial force
-physics_apply_force(x,y,200,0);
+//physics_apply_force(x,y,200,0);
 </string>
           </argument>
         </arguments>
