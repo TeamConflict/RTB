@@ -43,6 +43,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\objControl</object>
+    <object>objects\objPlay</object>
     <object>objects\objPlayer</object>
     <object>objects\objPlanet</object>
     <object>objects\objPlanet1</object>
@@ -51,7 +52,6 @@
     <object>objects\objMossPortrait</object>
     <object>objects\objTitle</object>
     <object>objects\objSpacebar</object>
-    <object>objects\objPlay</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>

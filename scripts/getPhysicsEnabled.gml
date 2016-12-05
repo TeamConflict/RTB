@@ -1,2 +1,1 @@
-
-return physics;
+return global.physics;

@@ -8,6 +8,71 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.canClick=true;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.physicsEnabled){
+    with(objPlanet){
+        
+        var phyPlanet;
+        phyPlanet = physics_fixture_create();
+        physics_fixture_set_circle_shape(phyPlanet, (sprite_get_width(sprMoon) / 2));
+        physics_fixture_set_density(phyPlanet, 0);
+        physics_fixture_set_collision_group(phyPlanet, 1);
+        physics_fixture_bind(phyPlanet, id);
+        physics_fixture_delete(phyPlanet);
+    }
+    
+    with(objPlayer) {
+        physics_apply_force(x,y,200,0);
+    }
+    
+}
+else {
+    show_debug_message("Failed!!!!");
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -25,39 +90,39 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if distance_to_point(mouse_x,mouse_y) &lt; 1 &amp;&amp; mouse_check_button_pressed(mb_left){
-sprite_index = sprPlayDark;
-setPhysicsEnabled(true);
-with(objPlanet1){
-
-    var phyPlanet;
-    phyPlanet = physics_fixture_create();
-    physics_fixture_set_circle_shape(phyPlanet, (sprite_get_width(sprEarth) / 2)-10);
-    physics_fixture_set_density(phyPlanet, 0);
-    physics_fixture_set_collision_group(phyPlanet, 1);
-    physics_fixture_bind(phyPlanet, id);
-    physics_fixture_delete(phyPlanet);
-
-}
-
-with(objPlayer){
-    var phyPlayer;
-    phyPlayer = physics_fixture_create();
-    physics_fixture_set_circle_shape(phyPlayer, sprite_get_width(sprPlayer) / 2);
-    physics_fixture_set_density(phyPlayer, 1.0);
-    physics_fixture_set_collision_group(phyPlayer, 1);
-    physics_fixture_set_friction(phyPlayer, 0.5)
-    physics_fixture_bind(phyPlayer, id);
-    physics_mass_properties(5, 0, 0, 0);
-    physics_fixture_delete(phyPlayer);
-    
-    physics_apply_force(x,y,200,0);
-
-
-}
-
-
-
+            <string>/*if distance_to_point(mouse_x,mouse_y) &lt; 1 &amp;&amp; mouse_check_button_pressed(mb_left){
+    sprite_index = sprPlayDark;
+    setPhysicsEnabled(true);
+    alarm[0] = room_speed;
+}*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.canClick) {
+    sprite_index = sprPlayDark;
+    //setPhysicsEnabled(true);
+    global.physicsEnabled = true;
+    global.canClick=false;
+    alarm[0] = 10;
 }
 </string>
           </argument>

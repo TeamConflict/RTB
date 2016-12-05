@@ -27,7 +27,10 @@
             <kind>1</kind>
             <string>///Selected
 global.canSelect = true;
-selected = false; 
+selected = false;
+/*if !place_snapped( sprite_get_width(sprSelectArea/3),sprite_get_height(sprSelectArea)-18) {
+move_snap( sprite_get_width(sprSelectArea/3),sprite_get_height(sprSelectArea)-18);
+}*/
 </string>
           </argument>
         </arguments>
@@ -82,6 +85,9 @@ if(selected){
             <string>///Release object
 selected = false;
 global.canSelect = true;
+/*if !place_snapped( sprite_get_width(sprSelectArea/3),sprite_get_height(sprSelectArea)-18) {
+move_snap( sprite_get_width(sprSelectArea/3),sprite_get_height(sprSelectArea)-18);
+}*/
 </string>
           </argument>
         </arguments>

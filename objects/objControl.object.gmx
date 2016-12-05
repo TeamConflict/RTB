@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>physics_world_create(1/32);
 physics_world_gravity(0,5);
+global.physicsEnabled=false;
 </string>
           </argument>
         </arguments>

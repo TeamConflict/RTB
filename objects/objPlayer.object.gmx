@@ -26,15 +26,15 @@
           <argument>
             <kind>1</kind>
             <string>///Creating player physics properties
-//var phyPlayer;
-//phyPlayer = physics_fixture_create();
-//physics_fixture_set_circle_shape(phyPlayer, sprite_get_width(sprPlayer) / 2);
-//physics_fixture_set_density(phyPlayer, 1.0);
-//physics_fixture_set_collision_group(phyPlayer, 1);
-//physics_fixture_set_friction(phyPlayer, 0.5)
-//physics_fixture_bind(phyPlayer, id);
-//physics_mass_properties(5, 0, 0, 0);
-//physics_fixture_delete(phyPlayer);
+var phyPlayer;
+phyPlayer = physics_fixture_create();
+physics_fixture_set_circle_shape(phyPlayer, sprite_get_width(sprPlayer) / 2);
+physics_fixture_set_density(phyPlayer, 1.0);
+physics_fixture_set_collision_group(phyPlayer, 1);
+physics_fixture_set_friction(phyPlayer, 0.5)
+physics_fixture_bind(phyPlayer, id);
+physics_mass_properties(5, 0, 0, 0);
+physics_fixture_delete(phyPlayer);
 </string>
           </argument>
         </arguments>
@@ -60,28 +60,29 @@
             <string>///Handling gravity
 
 //Applying force to counter act the room gravity
-while(getPhysicsEnabled){
 physics_apply_force(x,y,0,-25);
+if(global.physicsEnabled){
+
 
 with (objPlanet) {
     dist = (point_distance(x,y,other.x,other.y) - (sprite_get_width(sprMoon)/2));
     dir = point_direction(other.x,other.y,x,y);
-    show_debug_message(dist);
+    //show_debug_message(dist);
     if (dist &lt;= 200 &amp;&amp; dist &gt;= 100) {
         dx = lengthdir_x(10,dir);
         dy = lengthdir_y(10,dir);
-    }
+    }/*
     else if (dist &lt; 100 &amp;&amp; dist &gt;= 50) {
         dx = lengthdir_x(20,dir);
         dy = lengthdir_y(20,dir);   
-    }/*
+    }
     else if (dist &lt; 50 &amp;&amp; dist &gt; 20) {
         dx = lengthdir_x(40,dir);
         dy = lengthdir_y(40,dir);   
     }*/
     else if (dist &lt;= 18) {
-        dx = lengthdir_x(50,dir);
-        dy = lengthdir_y(50,dir);    
+        dx = lengthdir_x(30,dir);
+        dy = lengthdir_y(30,dir);    
     }
     else {
         dx = 0;

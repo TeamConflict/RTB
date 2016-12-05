@@ -1,1 +1,1 @@
-var physics = argument0;
+global.physics = argument0;
