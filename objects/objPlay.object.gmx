@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.canClick=true;
+            <string>///Setting canClick to true
+global.canClick=true;
 </string>
           </argument>
         </arguments>
@@ -48,7 +49,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.physicsEnabled){
+            <string>///Setting physics
+if (global.physicsEnabled){
     with(objPlanet){
         
         var phyPlanet;
@@ -73,7 +75,7 @@ else {
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="6" enumb="7">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -90,11 +92,9 @@ else {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*if distance_to_point(mouse_x,mouse_y) &lt; 1 &amp;&amp; mouse_check_button_pressed(mb_left){
-    sprite_index = sprPlayDark;
-    setPhysicsEnabled(true);
-    alarm[0] = room_speed;
-}*/
+            <string>///Handling click release
+//Can now select a planet
+global.canSelect=true;
 </string>
           </argument>
         </arguments>
@@ -117,11 +117,18 @@ else {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.canClick) {
+            <string>///Handling click events
+
+if (global.canClick) {
+    //Disabling clicking on the button again
+    global.canClick = false;
+    //Disabling selecting a planet
+    global.canSelect = false;
+    //Changing the button sprite
     sprite_index = sprPlayDark;
-    //setPhysicsEnabled(true);
+    //Enabling physics
     global.physicsEnabled = true;
-    global.canClick=false;
+    //Calling the alarm that sets physics up
     alarm[0] = 10;
 }
 </string>

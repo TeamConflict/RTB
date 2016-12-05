@@ -50,8 +50,7 @@ selected = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-///Move
+            <string>///Move
 if(selected){
     canSelect = false;
     x=mouse_x;
@@ -81,7 +80,33 @@ if(selected){
             <kind>1</kind>
             <string>///Release object
 selected = false;
+//Enable selecting a planet
 global.canSelect = true;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Setting canClick
+//Enable clicking on the button
+global.canClick = true;
 </string>
           </argument>
         </arguments>
@@ -104,10 +129,13 @@ global.canSelect = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-///Move
+            <string>///Handling click events
 if(global.canSelect){ 
+//Disable clicking on the button
+global.canClick = false;
+//Planet is selectec
 selected = true;
+//Disable selecting a planet
 global.canSelect = false;
 }
 </string>
