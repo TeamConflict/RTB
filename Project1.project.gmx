@@ -21,6 +21,7 @@
     <sprite>sprites\sprSelectArea</sprite>
     <sprite>sprites\sprPlay</sprite>
     <sprite>sprites\sprPlayDark</sprite>
+    <sprite>sprites\sprMossSuit</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
