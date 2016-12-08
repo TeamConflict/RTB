@@ -21,5 +21,48 @@
   <height>74</height>
   <frames>
     <frame index="0">images\sprMoon_0.png</frame>
+    <frame index="1">images\sprMoon_1.png</frame>
+    <frame index="2">images\sprMoon_2.png</frame>
+    <frame index="3">images\sprMoon_3.png</frame>
+    <frame index="4">images\sprMoon_4.png</frame>
+    <frame index="5">images\sprMoon_5.png</frame>
+    <frame index="6">images\sprMoon_6.png</frame>
+    <frame index="7">images\sprMoon_7.png</frame>
+    <frame index="8">images\sprMoon_8.png</frame>
+    <frame index="9">images\sprMoon_9.png</frame>
+    <frame index="10">images\sprMoon_10.png</frame>
+    <frame index="11">images\sprMoon_11.png</frame>
+    <frame index="12">images\sprMoon_12.png</frame>
+    <frame index="13">images\sprMoon_13.png</frame>
+    <frame index="14">images\sprMoon_14.png</frame>
+    <frame index="15">images\sprMoon_15.png</frame>
+    <frame index="16">images\sprMoon_16.png</frame>
+    <frame index="17">images\sprMoon_17.png</frame>
+    <frame index="18">images\sprMoon_18.png</frame>
+    <frame index="19">images\sprMoon_19.png</frame>
+    <frame index="20">images\sprMoon_20.png</frame>
+    <frame index="21">images\sprMoon_21.png</frame>
+    <frame index="22">images\sprMoon_22.png</frame>
+    <frame index="23">images\sprMoon_23.png</frame>
+    <frame index="24">images\sprMoon_24.png</frame>
+    <frame index="25">images\sprMoon_25.png</frame>
+    <frame index="26">images\sprMoon_26.png</frame>
+    <frame index="27">images\sprMoon_27.png</frame>
+    <frame index="28">images\sprMoon_28.png</frame>
+    <frame index="29">images\sprMoon_29.png</frame>
+    <frame index="30">images\sprMoon_30.png</frame>
+    <frame index="31">images\sprMoon_31.png</frame>
+    <frame index="32">images\sprMoon_32.png</frame>
+    <frame index="33">images\sprMoon_33.png</frame>
+    <frame index="34">images\sprMoon_34.png</frame>
+    <frame index="35">images\sprMoon_35.png</frame>
+    <frame index="36">images\sprMoon_36.png</frame>
+    <frame index="37">images\sprMoon_37.png</frame>
+    <frame index="38">images\sprMoon_38.png</frame>
+    <frame index="39">images\sprMoon_39.png</frame>
+    <frame index="40">images\sprMoon_40.png</frame>
+    <frame index="41">images\sprMoon_41.png</frame>
+    <frame index="42">images\sprMoon_42.png</frame>
+    <frame index="43">images\sprMoon_43.png</frame>
   </frames>
 </sprite>

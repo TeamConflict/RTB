@@ -28,6 +28,7 @@
             <string>///Selected
 global.canSelect = true;
 selected = false;
+image_speed = 0;
 </string>
           </argument>
         </arguments>
