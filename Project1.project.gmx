@@ -31,6 +31,7 @@
     <background>background\bkgSpace</background>
     <background>background\bkgColourSpace</background>
     <background>background\bkgSpace2</background>
+    <background>background\bkgCredits</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
