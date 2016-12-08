@@ -22,6 +22,7 @@
     <sprite>sprites\sprPlay</sprite>
     <sprite>sprites\sprPlayDark</sprite>
     <sprite>sprites\sprMossSuit</sprite>
+    <sprite>sprites\sprMossSuit2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
@@ -31,7 +32,6 @@
     <background>background\bkgSpace</background>
     <background>background\bkgColourSpace</background>
     <background>background\bkgSpace2</background>
-    <background>background\bkgCredits</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
