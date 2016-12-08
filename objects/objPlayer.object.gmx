@@ -80,8 +80,8 @@ with (objPlanet) {
         dy = lengthdir_y(15,dir);   
     }
     else if (dist &lt;= 18) {
-        dx = lengthdir_x(30,dir);
-        dy = lengthdir_y(30,dir);    
+        dx = lengthdir_x(0,dir);
+        dy = lengthdir_y(0,dir);    
     }
     else {
         dx = 0;

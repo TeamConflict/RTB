@@ -28,8 +28,7 @@
             <string>//speed = 10;
 //image_speed = 0.3;
 vspeed = 7;
-x = -50;
-y = random(room_height - 250);
+y = room_height/2;
 
 </string>
           </argument>
