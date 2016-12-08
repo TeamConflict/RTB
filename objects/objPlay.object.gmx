@@ -63,6 +63,18 @@ if (global.physicsEnabled){
         image_speed = 0.4;
     }
     
+    with(objAsteroid1){
+        
+        var phyAsteroid;
+        phyAsteroid = physics_fixture_create();
+        physics_fixture_set_circle_shape(phyAsteroid, (sprite_get_width(sprAsteroid1) / 2));
+        physics_fixture_set_density(phyAsteroid, 0);
+        physics_fixture_set_collision_group(phyAsteroid, 1);
+        physics_fixture_bind(phyAsteroid, id);
+        physics_fixture_delete(phyAsteroid);
+        image_speed = 0.4;
+    }
+    
     with(objPlayer) {
         physics_apply_force(x,y,200,0);
     }

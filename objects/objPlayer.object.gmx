@@ -122,6 +122,36 @@ show_debug_message("Earth "+string(id)+" "+string(dist));
         physics_apply_force(x,y,other.dx,other.dy);
     }
 }
+
+with (objAsteroid1) {
+    dist = (point_distance(x,y,other.x,other.y) - (sprite_get_width(sprEarth) / 2));
+    dir = point_direction(other.x,other.y,x,y);
+show_debug_message("Asteroid "+string(id)+" "+string(dist));    
+    if (dist &lt;= 200 &amp;&amp; dist &gt;= 100) {
+        dx = lengthdir_x(3,dir);
+        dy = lengthdir_y(3,dir);
+    }
+    else if (dist &lt; 100 &amp;&amp; dist &gt;= 50) {
+        dx = lengthdir_x(7,dir);
+        dy = lengthdir_y(7,dir);   
+    }
+    else if (dist &lt; 50 &amp;&amp; dist &gt; 20) {
+        dx = lengthdir_x(13,dir);
+        dy = lengthdir_y(20,dir);   
+    }
+    else if (dist &lt;= 18) {
+        dx = lengthdir_x(30,dir);
+        dy = lengthdir_y(30,dir);    
+    }
+    else {
+        dx = 0;
+        dy = 0;
+    }
+    
+    with (objPlayer) {
+        physics_apply_force(x,y,other.dx,other.dy);
+    }
+}
 }
 </string>
           </argument>
