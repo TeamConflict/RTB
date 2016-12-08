@@ -53,6 +53,7 @@
     <object>objects\objMossPortrait</object>
     <object>objects\objTitle</object>
     <object>objects\objSpacebar</object>
+    <object>objects\objMossSuit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>
