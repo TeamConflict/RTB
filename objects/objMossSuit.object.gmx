@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>//speed = 10;
 //image_speed = 0.3;
-vspeed = 2;
+vspeed = 7;
 x = -50;
 y = random(room_height - 250);
 
@@ -59,18 +59,18 @@ image_angle +=  1;
 image_angle = 0;
 }
 
-if(y &gt; room_height){
+if(y &gt; room_height+250){
     vspeed = 0;
-    hspeed = 2;
+    hspeed = 6;
     x = -250;
-    y = random(room_height-250);
+    y = random(room_height/2);
 }
 
-if( x &gt; room_width){
+if( x &gt; room_width+250){
     hspeed = 0;
-    vspeed = 2;
+    vspeed = 6;
     y = -250;
-    x = random(room_width-250);
+    x = random(room_width/2);
 }
 
 </string>
@@ -90,5 +90,8 @@ if( x &gt; room_width){
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>89,96</point>
+    <point>96,96</point>
+  </PhysicsShapePoints>
 </object>
