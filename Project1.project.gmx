@@ -36,9 +36,10 @@
     <sprite>sprites\sprSelectArea</sprite>
     <sprite>sprites\sprPlay</sprite>
     <sprite>sprites\sprPlayDark</sprite>
-    <sprite>sprites\sprMossSuit</sprite>
     <sprite>sprites\sprMossSuit2</sprite>
     <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\sprExplosion</sprite>
+    <sprite>sprites\sprConfetti</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
