@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>var phyPlanet;
 phyPlanet = physics_fixture_create();
-physics_fixture_set_circle_shape(phyPlanet, (sprite_get_width(sprEarth) / 2)-15);
+physics_fixture_set_circle_shape(phyPlanet, (sprite_get_width(sprEarth) / 2)-16);
 physics_fixture_set_density(phyPlanet, 0);
 physics_fixture_set_collision_group(phyPlanet, 1);
 physics_fixture_bind(phyPlanet, id);

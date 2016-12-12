@@ -67,21 +67,25 @@ with (objPlanet) {
     dist = (point_distance(x,y,other.x,other.y) - (sprite_get_width(sprMoon)/2));
     dir = point_direction(other.x,other.y,x,y);
     show_debug_message("Moon "+string(id)+" "+string(dist));
-    if (dist &lt;= 250 &amp;&amp; dist &gt;= 100) {
+    if (dist &lt;= 250 &amp;&amp; dist &gt;= 150) {
         dx = lengthdir_x(5,dir);
         dy = lengthdir_y(5,dir);
     }
-    else if (dist &lt; 100 &amp;&amp; dist &gt;= 50) {
-        dx = lengthdir_x(10,dir);
-        dy = lengthdir_y(10,dir);   
+    else if (dist &lt; 150 &amp;&amp; dist &gt;= 100) {
+        dx = lengthdir_x(8,dir);
+        dy = lengthdir_y(8,dir);   
     }
-    else if (dist &lt; 50 &amp;&amp; dist &gt; 20) {
+    else if (dist &lt; 100 &amp;&amp; dist &gt;= 50) {
+        dx = lengthdir_x(12,dir);
+        dy = lengthdir_y(12,dir);   
+    }
+    else if (dist &lt; 50 &amp;&amp; dist &gt; 18) {
         dx = lengthdir_x(15,dir);
         dy = lengthdir_y(15,dir);   
     }
     else if (dist &lt;= 18) {
-        dx = lengthdir_x(0,dir);
-        dy = lengthdir_y(0,dir);    
+        dx = lengthdir_x(2,dir);
+        dy = lengthdir_y(2,dir);    
     }
     else {
         dx = 0;
@@ -135,13 +139,13 @@ show_debug_message("Asteroid "+string(id)+" "+string(dist));
         dx = lengthdir_x(7,dir);
         dy = lengthdir_y(7,dir);   
     }
-    else if (dist &lt; 50 &amp;&amp; dist &gt; 20) {
-        dx = lengthdir_x(13,dir);
-        dy = lengthdir_y(20,dir);   
+    else if (dist &lt; 50 &amp;&amp; dist &gt; 18) {
+        dx = lengthdir_x(12,dir);
+        dy = lengthdir_y(12,dir);   
     }
     else if (dist &lt;= 18) {
-        dx = lengthdir_x(30,dir);
-        dy = lengthdir_y(30,dir);    
+        dx = lengthdir_x(0,dir);
+        dy = lengthdir_y(0,dir);    
     }
     else {
         dx = 0;
