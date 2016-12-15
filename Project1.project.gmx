@@ -34,12 +34,15 @@
     <sprite>sprites\sprSaturn</sprite>
     <sprite>sprites\sprMossPortrait</sprite>
     <sprite>sprites\sprSelectArea</sprite>
-    <sprite>sprites\sprPlay</sprite>
+    <sprite>sprites\sprPlayO</sprite>
     <sprite>sprites\sprPlayDark</sprite>
     <sprite>sprites\sprMossSuit2</sprite>
     <sprite>sprites\sprite17</sprite>
     <sprite>sprites\sprExplosion</sprite>
     <sprite>sprites\sprConfetti</sprite>
+    <sprite>sprites\sprPlayDark</sprite>
+    <sprite>sprites\sprPlayLight</sprite>
+    <sprite>sprites\sprResetLight</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
@@ -72,6 +75,7 @@
     <object>objects\objTitle</object>
     <object>objects\objSpacebar</object>
     <object>objects\objMossSuit</object>
+    <object>objects\objReset</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>
