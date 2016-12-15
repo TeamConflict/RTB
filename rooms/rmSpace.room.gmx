@@ -60,6 +60,7 @@
     <instance objName="objMossPortrait" x="64" y="64" name="inst_5F626552" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlay" x="416" y="672" name="inst_44B294F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAsteroid1" x="288" y="712" name="inst_AD508C3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objReset" x="416" y="728" name="inst_0FBE285B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
