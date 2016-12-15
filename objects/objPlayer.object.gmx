@@ -138,10 +138,14 @@ show_debug_message("Earth "+string(id)+" "+string(dist));
         dx = lengthdir_x(70,dir);
         dy = lengthdir_y(70,dir);   
     }
-    else if (dist &lt;= 25) {
+    else if (dist &lt;= 25 &amp;&amp; dist &gt; 0) {
         dx = lengthdir_x(200,dir);
         dy = lengthdir_y(200,dir); 
     }
+    else if (dist &lt;= 0) {
+        dx = lengthdir_x(500,dir);
+        dy = lengthdir_y(500,dir);    
+    } 
     else {
         dx = 0;
         dy = 0;
