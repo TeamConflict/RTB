@@ -58,9 +58,12 @@
     <instance objName="objPlanet1" x="928" y="672" name="inst_6C79A4A1" locked="0" code="" scaleX="0.899999976158142" scaleY="0.899999976158142" colour="4294967295" rotation="0"/>
     <instance objName="objSelect" x="-120" y="584" name="inst_8DE11BD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMossPortrait" x="64" y="64" name="inst_5F626552" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPlay" x="416" y="672" name="inst_44B294F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlay" x="392" y="704" name="inst_44B294F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAsteroid1" x="288" y="712" name="inst_AD508C3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objReset" x="416" y="728" name="inst_0FBE285B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objReset" x="472" y="704" name="inst_0FBE285B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objControl" x="584" y="656" name="inst_9C30277E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objControl" x="416" y="744" name="inst_21A5E2BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objControl" x="352" y="608" name="inst_53A35B55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
