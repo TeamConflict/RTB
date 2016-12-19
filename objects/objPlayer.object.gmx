@@ -87,6 +87,7 @@ instance_destroy();
 
 //Applying force to counter act the room gravity
 physics_apply_force(x,y,0,-25);
+image_speed = 0.6;
 if(global.physicsEnabled){
     with (objPlanet) {
         dist = (point_distance(x,y,other.x,other.y) - (sprite_get_width(sprMoon)/2));
@@ -359,5 +360,8 @@ global.collision = true;
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints/>
+  <PhysicsShapePoints>
+    <point>7,7</point>
+    <point>7,7</point>
+  </PhysicsShapePoints>
 </object>
