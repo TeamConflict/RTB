@@ -34,6 +34,8 @@ physics_fixture_set_collision_group(phyPlayer, 1);
 physics_fixture_bind(phyPlayer, id);
 physics_mass_properties(5, 0, 0, 0);
 physics_fixture_delete(phyPlayer);
+global.collision = false;
+
 </string>
           </argument>
         </arguments>
@@ -213,8 +215,11 @@ if(global.physicsEnabled){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index = sprExplosion;
+            <string>if(!global.collision){
+global.collision = true;
+sprite_index = sprExplosion;
 alarm[0] = 2;
+}
 </string>
           </argument>
         </arguments>
@@ -237,9 +242,11 @@ alarm[0] = 2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index = sprExplosion;
+            <string>if(!global.collision){
+sprite_index = sprExplosion;
 alarm[0] = 2;
-//instance_destroy();
+global.collision = true;
+}
 </string>
           </argument>
         </arguments>
