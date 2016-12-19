@@ -5,10 +5,10 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sound1</sound>
+    <sound>sound\snd_placement</sound>
     <sound>sound\sound3</sound>
-    <sound>sound\sound4</sound>
-    <sound>sound\sound5</sound>
+    <sound>sound\snd_gamebackground</sound>
+    <sound>sound\snd_splash</sound>
     <sound>sound\sound6_lost</sound>
     <sound>sound\sound7</sound>
     <sound>sound\sound8</sound>
@@ -17,7 +17,7 @@
     <sound>sound\sound11</sound>
     <sound>sound\sound12</sound>
     <sound>sound\sound13</sound>
-    <sound>sound\sound14</sound>
+    <sound>sound\snd_looser</sound>
     <sound>sound\sound15</sound>
   </sounds>
   <sprites name="sprites">
