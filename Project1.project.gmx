@@ -19,6 +19,14 @@
     <sound>sound\sound13</sound>
     <sound>sound\snd_looser</sound>
     <sound>sound\sound15</sound>
+    <sound>sound\sound14</sound>
+    <sound>sound\sound16</sound>
+    <sound>sound\sound17</sound>
+    <sound>sound\sound19</sound>
+    <sound>sound\sound20</sound>
+    <sound>sound\sound21</sound>
+    <sound>sound\sound22</sound>
+    <sound>sound\sound23</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprPlayer</sprite>
@@ -55,11 +63,13 @@
   <scripts name="scripts">
     <script>scripts\getPhysicsEnabled.gml</script>
     <script>scripts\setPhysicsEnabled.gml</script>
+    <script>scripts\textmessage.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fntPaperland</font>
     <font>fonts\fntSugarpunch</font>
     <font>fonts\fntHTDS</font>
+    <font>fonts\fntMessage</font>
   </fonts>
   <objects name="objects">
     <object>objects\objControl</object>
@@ -74,6 +84,7 @@
     <object>objects\objSpacebar</object>
     <object>objects\objMossSuit</object>
     <object>objects\objReset</object>
+    <object>objects\objtext</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>

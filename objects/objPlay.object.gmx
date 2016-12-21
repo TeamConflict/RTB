@@ -143,6 +143,10 @@ if (global.canClick) {
     global.physicsEnabled = true;
     //Calling the alarm that sets physics up
     alarm[0] = 10;
+    
+    with(objtext){
+        instance_destroy();
+    }
 }
 </string>
           </argument>
