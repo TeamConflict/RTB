@@ -10,7 +10,7 @@
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
-  <code>textmessage("Help me get to the party.#You're my only hope.",fntMessage,0.5,150,20);</code>
+  <code>textmessage("Help me get to the party.#You're my only hope.",fntMessage,0.8,140,20);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

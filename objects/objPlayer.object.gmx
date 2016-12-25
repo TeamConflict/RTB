@@ -219,7 +219,7 @@ if(global.physicsEnabled){
             <string>if(!global.collision){
 global.collision = true;
 sprite_index = sprExplosion;
-alarm[0] = 2;
+alarm[0] = 4;
 }
 </string>
           </argument>
@@ -245,7 +245,7 @@ alarm[0] = 2;
             <kind>1</kind>
             <string>if(!global.collision){
 sprite_index = sprExplosion;
-alarm[0] = 2;
+alarm[0] = 5;
 global.collision = true;
 }
 </string>

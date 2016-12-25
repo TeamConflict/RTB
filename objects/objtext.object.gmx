@@ -52,26 +52,6 @@ depth = depth - instance_number(objtext);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>
 ///add letters over time
 if(time &lt; text_length)
@@ -86,9 +66,9 @@ draw_set_alpha(alpha);
 if(alpha &lt; 1) alpha += spd/10; else alpha = 1;
 
 draw_set_font(font);
-draw_set_color(c_gray);
+draw_set_color(c_dkgray);
 draw_rectangle(x,y,x+boxwidth,y+boxheight,0);
-draw_set_color(c_black);
+draw_set_color(c_gray);
 draw_rectangle(x,y,x+boxwidth,y+boxheight,1);
 draw_set_color(c_white);
 draw_set_halign(fa_left);
