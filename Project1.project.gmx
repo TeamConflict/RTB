@@ -89,10 +89,16 @@
     <object>objects\objMossSuit</object>
     <object>objects\objReset</object>
     <object>objects\objtext</object>
+<<<<<<< HEAD
     <object>objects\objMenu</object>
     <object>objects\objFade</object>
+=======
+    <object>objects\objScrollingText</object>
+    <object>objects\objCamera</object>
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
+    <room>rooms\rmTestCredits</room>
     <room>rooms\rmSplash</room>
     <room>rooms\rmMenu</room>
     <room>rooms\rmSpace</room>
