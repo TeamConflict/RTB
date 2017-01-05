@@ -49,6 +49,7 @@
     <sprite>sprites\sprReset</sprite>
     <sprite>sprites\sprPlay2</sprite>
     <sprite>sprites\sprUI</sprite>
+    <sprite>sprites\sprMossHQ</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
