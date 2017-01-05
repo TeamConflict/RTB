@@ -95,9 +95,9 @@
     <object>objects\objCamera</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rmTestCredits</room>
     <room>rooms\rmSplash</room>
     <room>rooms\rmMenu</room>
+    <room>rooms\rmTestCredits</room>
     <room>rooms\rmSpace</room>
   </rooms>
   <help>
