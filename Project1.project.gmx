@@ -50,6 +50,7 @@
     <sprite>sprites\sprPlay2</sprite>
     <sprite>sprites\sprUI</sprite>
     <sprite>sprites\sprMossHQ</sprite>
+    <sprite>sprites\sprArrow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
@@ -65,6 +66,7 @@
     <script>scripts\getPhysicsEnabled.gml</script>
     <script>scripts\setPhysicsEnabled.gml</script>
     <script>scripts\textmessage.gml</script>
+    <script>scripts\Menu.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fntPaperland</font>
@@ -87,9 +89,12 @@
     <object>objects\objMossSuit</object>
     <object>objects\objReset</object>
     <object>objects\objtext</object>
+    <object>objects\objMenu</object>
+    <object>objects\objFade</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>
+    <room>rooms\rmMenu</room>
     <room>rooms\rmSpace</room>
   </rooms>
   <help>
