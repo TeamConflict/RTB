@@ -52,27 +52,33 @@ global.canClick=true;
             <string>///Setting physics
 if (global.physicsEnabled){
     with(objPlanet){
-        
-        var phyPlanet;
-        phyPlanet = physics_fixture_create();
-        physics_fixture_set_circle_shape(phyPlanet, (sprite_get_width(sprMoon) / 2));
-        physics_fixture_set_density(phyPlanet, 0);
-        physics_fixture_set_collision_group(phyPlanet, 1);
-        physics_fixture_bind(phyPlanet, id);
-        physics_fixture_delete(phyPlanet);
-        image_speed = 0.4;
+        if (y &lt;= 648) {
+            global.moonOutsideUI = true;
+            show_debug_message(x);
+            show_debug_message(y);
+            var phyPlanet;
+            phyPlanet = physics_fixture_create();
+            physics_fixture_set_circle_shape(phyPlanet, (sprite_get_width(sprMoon) / 2));
+            physics_fixture_set_density(phyPlanet, 0);
+            physics_fixture_set_collision_group(phyPlanet, 1);
+            physics_fixture_bind(phyPlanet, id);
+            physics_fixture_delete(phyPlanet);
+            image_speed = 0.4;
+        }
     }
     
     with(objAsteroid1){
-        
-        var phyAsteroid;
-        phyAsteroid = physics_fixture_create();
-        physics_fixture_set_circle_shape(phyAsteroid, (sprite_get_width(sprAsteroid1) / 2));
-        physics_fixture_set_density(phyAsteroid, 0);
-        physics_fixture_set_collision_group(phyAsteroid, 1);
-        physics_fixture_bind(phyAsteroid, id);
-        physics_fixture_delete(phyAsteroid);
-        image_speed = 0.4;
+        if (y &lt;= 648) {
+            global.asteroidOutsideUI = true;
+            var phyAsteroid;
+            phyAsteroid = physics_fixture_create();
+            physics_fixture_set_circle_shape(phyAsteroid, (sprite_get_width(sprAsteroid1) / 2));
+            physics_fixture_set_density(phyAsteroid, 0);
+            physics_fixture_set_collision_group(phyAsteroid, 1);
+            physics_fixture_bind(phyAsteroid, id);
+            physics_fixture_delete(phyAsteroid);
+            image_speed = 0.4;
+        }
     }
     
     with(objPlayer) {
