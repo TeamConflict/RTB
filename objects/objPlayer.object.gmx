@@ -90,7 +90,7 @@ physics_apply_force(x,y,0,-25);
 image_speed = 0.6;
 if(global.physicsEnabled){
         with (objPlanet) {
-            if(global.moonOutsideUI) {
+            if(y &lt;= 648) {
                 dist = (point_distance(x,y,other.x,other.y) - (sprite_get_width(sprMoon)/2));
                 dir = point_direction(other.x,other.y,x,y);
                 //show_debug_message("Moon "+string(id)+" "+string(dist));
@@ -161,7 +161,7 @@ if(global.physicsEnabled){
     }
     
     with (objAsteroid1) {
-        if (global.asteroidOutsideUI) {
+        if (y &lt;= 648) {
             dist = (point_distance(x,y,other.x,other.y) - (sprite_get_width(sprEarth) / 2));
             dir = point_direction(other.x,other.y,x,y);
         //show_debug_message("Asteroid "+string(id)+" "+string(dist));    

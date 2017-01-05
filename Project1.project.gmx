@@ -63,8 +63,6 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\getPhysicsEnabled.gml</script>
-    <script>scripts\setPhysicsEnabled.gml</script>
     <script>scripts\textmessage.gml</script>
     <script>scripts\Menu.gml</script>
   </scripts>
