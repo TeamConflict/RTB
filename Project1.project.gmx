@@ -48,10 +48,12 @@
     <sprite>sprites\sprPlay</sprite>
     <sprite>sprites\sprReset</sprite>
     <sprite>sprites\sprPlay2</sprite>
-    <sprite>sprites\sprUI</sprite>
     <sprite>sprites\spraMossSuit22</sprite>
     <sprite>sprites\sprMossHQ</sprite>
     <sprite>sprites\sprArrow</sprite>
+    <sprite>sprites\sprGIArrow</sprite>
+    <sprite>sprites\sprDemoMoon</sprite>
+    <sprite>sprites\sprMenuMoss</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
@@ -94,11 +96,23 @@
     <object>objects\objScrollingText</object>
     <object>objects\objCamera</object>
     <object>objects\objmosssuit22</object>
+    <object>objects\objDemoPlay</object>
+    <object>objects\objDemoReset</object>
+    <object>objects\objDemoSelect</object>
+    <object>objects\objDemoPlanet</object>
+    <object>objects\sprDemoAsteroid</object>
+    <object>objects\sprDemoEarth</object>
+    <object>objects\objDemoMossP</object>
+    <object>objects\objDemoPlayer</object>
+    <object>objects\objDemoArrow</object>
+    <object>objects\objGameInstructions</object>
+    <object>objects\objConfetti</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>
     <room>rooms\rmMenu</room>
     <room>rooms\rmTestCredits</room>
+    <room>rooms\rmGameInstructions</room>
     <room>rooms\rmSpace</room>
   </rooms>
   <help>
