@@ -94,7 +94,9 @@ if(move != 0)
             <kind>1</kind>
             <string>draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
+//text font
 draw_set_font(fntPaperland);
+//text colour
 draw_set_color(c_white);
 
 var m;
