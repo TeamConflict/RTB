@@ -6,27 +6,27 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_placement</sound>
-    <sound>sound\sound3</sound>
+    <sound>sound\snd_01</sound>
     <sound>sound\snd_gamebackground</sound>
     <sound>sound\snd_splash</sound>
     <sound>sound\sound6_lost</sound>
-    <sound>sound\sound7</sound>
-    <sound>sound\sound8</sound>
-    <sound>sound\sound9</sound>
-    <sound>sound\sound10</sound>
-    <sound>sound\sound11</sound>
-    <sound>sound\sound12</sound>
-    <sound>sound\sound13</sound>
+    <sound>sound\snd_07</sound>
+    <sound>sound\snd_08</sound>
+    <sound>sound\snd_09</sound>
+    <sound>sound\snd_10</sound>
+    <sound>sound\snd_11</sound>
+    <sound>sound\snd_12</sound>
+    <sound>sound\snd_13</sound>
     <sound>sound\snd_looser</sound>
-    <sound>sound\sound15</sound>
-    <sound>sound\sound14</sound>
-    <sound>sound\sound16</sound>
-    <sound>sound\sound17</sound>
-    <sound>sound\sound19</sound>
-    <sound>sound\sound20</sound>
-    <sound>sound\sound21</sound>
-    <sound>sound\sound22</sound>
-    <sound>sound\sound23</sound>
+    <sound>sound\snd_15</sound>
+    <sound>sound\snd_14</sound>
+    <sound>sound\snd_16</sound>
+    <sound>sound\snd_17</sound>
+    <sound>sound\snd_19</sound>
+    <sound>sound\snd_20</sound>
+    <sound>sound\snd_21</sound>
+    <sound>sound\snd_22</sound>
+    <sound>sound\snd_23</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprPlayer</sprite>
