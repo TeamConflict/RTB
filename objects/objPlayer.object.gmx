@@ -41,6 +41,41 @@ global.collision = false;
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Complete level events
+with(objPlayer) 
+{
+    instance_create(888,618,objConfetti);
+    with(objConfetti) 
+    {
+        image_angle = 45;
+        image_speed = 0.75
+    }
+    instance_destroy();
+}
+
+textmessage("COMPLETE.",fntSugarpunch,0.8,250,275);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
@@ -226,6 +261,32 @@ if(global.physicsEnabled){
 global.collision = true;
 sprite_index = sprExplosion;
 alarm[0] = 4;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="objPlanet1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (distance_to_object(objPlanet1) &lt;= 0 &amp;&amp; phy_speed &lt;=0) {
+    alarm[1] = 1;
+    show_debug_message("hit");
 }
 </string>
           </argument>
