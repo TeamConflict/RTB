@@ -63,6 +63,7 @@
     <background>background\bkgSpace</background>
     <background>background\bkgColourSpace</background>
     <background>background\bkgSpace2</background>
+    <background>background\bkgCredits</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -111,9 +112,10 @@
   <rooms name="rooms">
     <room>rooms\rmSplash</room>
     <room>rooms\rmMenu</room>
-    <room>rooms\rmTestCredits</room>
+    <room>rooms\rmIntro</room>
     <room>rooms\rmGameInstructions</room>
     <room>rooms\rmSpace</room>
+    <room>rooms\rmCredits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
