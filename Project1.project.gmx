@@ -73,6 +73,7 @@
     <font>fonts\fntHTDS</font>
     <font>fonts\fntMessage</font>
     <font>fonts\font4</font>
+    <font>fonts\fntScrollingText</font>
   </fonts>
   <objects name="objects">
     <object>objects\objControl</object>

@@ -23,4 +23,3 @@ with(txt)
     boxheight = text_height + (padding*2);
 }
 
-

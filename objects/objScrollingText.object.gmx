@@ -37,9 +37,40 @@ someText += "Hey!";
 someText += "blah blah blah tim";
 someText += "blah blah blah tim";
 someText += "blah blah blah tim";
+someText += "blah blah# blah tim";
 someText += "blah blah blah tim";
 someText += "blah blah blah tim";
 someText += "blah blah blah tim";
+someText += "but Hey";
+someText += "what a wo###nderful time of day";
+someText += "Hey!";
+someText += "blah b#lah blah tim";
+someText += "blah blah blah tim";
+someText += "blah blah blah tim";
+someText += "blah blah blah tim";
+someText += "blah blah blah tim";
+someText += "blah blah blah tim";
+someText += "blah blah blah tim";
+someText += "but Hey";
+someText += "what a wonderful time of day";
+someText += "Hey!";
+someText += "blah blah blah tim";
+someText += "blah bla#h blah tim";
+someText += "blah blah blah tim";
+someText += "blah blah blah tim";
+someText += "blah b##lah blah tim";
+someText += "blah blah blah tim";
+someText += "blah blah blah tim";
+someText += "but Hey";
+someText += "what a wonderful time of day";
+someText += "Hey!";
+someText += "blah blah blah tim";
+someText += "blah b#lah blah tim";
+someText = "blah ##blah blah tim";
+someText += "blah blah blah tim";
+someText += "blah blah blah tim";
+someText += "blah blah blah tim";
+someText += "blah blah ##blah tim";
 someText += "blah blah blah tim";
 someText += "but Hey";
 someText += "what a wonderful time of day";
@@ -59,6 +90,16 @@ someText += "blah blah blah tim";
 someText += "blah blah blah tim";
 someText += "blah blah blah tim";
 someText += "blah blah blah tim";
+someText += "bl#ah blah blah tim";
+someText += "blah blah blah tim";
+someText += "but Hey";
+someText += "what a wonderful time of day";
+someText += "Hey!";
+someText += "blah blah blah tim";
+someText += "blah blah blah tim";
+someText += "blah blah blah tim";
+someText += "blah bla#h blah tim";
+someText += "blah blah blah tim";
 someText += "blah blah blah tim";
 someText += "blah blah blah tim";
 someText += "but Hey";
@@ -66,8 +107,9 @@ someText += "what a wonderful time of day";
 someText += "Hey!";
 someText += "blah blah blah tim";
 someText += "blah blah blah tim";
+
 y = room_height;    
-vspeed = -5;
+vspeed = -1;
 </string>
           </argument>
         </arguments>
@@ -90,8 +132,8 @@ vspeed = -5;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_colour(c_white);
-draw_set_font(font4);
+            <string>draw_set_colour(c_yellow);
+draw_set_font(fntScrollingText);
 draw_set_halign(fa_center);
 draw_text(room_width/2,y,someText);
 if( y&lt; -string_height(someText)){
