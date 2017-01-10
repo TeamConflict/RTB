@@ -77,6 +77,7 @@
     <font>fonts\fntMessage</font>
     <font>fonts\font4</font>
     <font>fonts\fntScrollingText</font>
+    <font>fonts\fntPaperlandSmall</font>
   </fonts>
   <objects name="objects">
     <object>objects\objControl</object>
@@ -108,6 +109,7 @@
     <object>objects\objDemoArrow</object>
     <object>objects\objGameInstructions</object>
     <object>objects\objConfetti</object>
+    <object>objects\objGIContinue</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>

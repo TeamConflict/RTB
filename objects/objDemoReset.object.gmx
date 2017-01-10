@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>textmessage("Reset",fntMessage,0.8,x-45,y-100);
+            <string>textmessage("Reset",fntMessage,0.8,x-40,y-100);
 </string>
           </argument>
         </arguments>

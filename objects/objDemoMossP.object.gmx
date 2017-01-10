@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>textmessage("Get Moss P to the planet.",fntMessage,0.8,x-80,y-140);
+            <string>textmessage("Get Moss P to the planet",fntMessage,0.8,x-80,y-140);
 </string>
           </argument>
         </arguments>
