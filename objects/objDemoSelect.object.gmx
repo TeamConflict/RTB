@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>textmessage("Drag and drop objects to move Moss P across the screen.",fntMessage,0.8,x-220,y-135);
+            <string>textmessage("Drag and drop objects to move Moss P across the screen",fntMessage,0.8,x-220,y-135);
 </string>
           </argument>
         </arguments>
