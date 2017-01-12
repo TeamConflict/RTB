@@ -10,7 +10,9 @@
   <persistent>0</persistent>
   <colour>16777215</colour>
   <showcolour>-1</showcolour>
-  <code>global.roomNum = 2;</code>
+  <code>global.roomNum = 2;
+audio_stop_sound(snd_splash_1_2);
+audio_play_sound(snd_21__instructionscreen,100,100);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>0</clearViewBackground>
   <clearDisplayBuffer>0</clearDisplayBuffer>

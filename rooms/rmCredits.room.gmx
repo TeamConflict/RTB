@@ -10,7 +10,10 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>global.roomNum = 5;</code>
+  <code>global.roomNum = 5;
+audio_stop_sound(snd_15__firstscreen);
+
+audio_play_sound(snd_16__credit_screen,100,100);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
