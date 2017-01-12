@@ -54,6 +54,7 @@
     <sprite>sprites\sprGIArrow</sprite>
     <sprite>sprites\sprDemoMoon</sprite>
     <sprite>sprites\sprMenuMoss</sprite>
+    <sprite>sprites\sprBarrier</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
