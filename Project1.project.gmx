@@ -86,6 +86,7 @@
     <object>objects\objPlanet</object>
     <object>objects\objPlanet1</object>
     <object>objects\objAsteroid1</object>
+    <object>objects\objMeteor</object>
     <object>objects\objSelect</object>
     <object>objects\objMossPortrait</object>
     <object>objects\objTitle</object>
@@ -110,8 +111,10 @@
     <object>objects\objGameInstructions</object>
     <object>objects\objConfetti</object>
     <object>objects\objGIContinue</object>
+    <object>objects\objMeteorSpawn</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rmLevel2</room>
     <room>rooms\rmSplash</room>
     <room>rooms\rmMenu</room>
     <room>rooms\rmIntro</room>
