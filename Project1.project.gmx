@@ -113,6 +113,7 @@
     <object>objects\objConfetti</object>
     <object>objects\objGIContinue</object>
     <object>objects\objMeteorSpawn</object>
+    <object>objects\objBarrier</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmLevel2</room>
