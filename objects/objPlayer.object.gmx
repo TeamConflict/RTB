@@ -59,8 +59,8 @@ global.collision = false;
           <argument>
             <kind>1</kind>
             <string>///Display message and goto next room alarm
-textmessage("COMPLETE.",fntSugarpunch,0.8,250,275);
-alarm[2]=2*room_speed;
+//textmessage("COMPLETE.",fntSugarpunch,0.8,250,275);
+alarm[2]=3*room_speed;
 </string>
           </argument>
         </arguments>
@@ -121,6 +121,12 @@ with(objPlayer)
         image_speed = 0.75;
     }
 }
+audio_stop_all();
+textmessage("COMPLETE.",fntSugarpunch,0.8,250,275);
+audio_play_sound(snd_applause,100,false);
+audio_play_sound(snd_splash_1_2,100,true);
+
+
 </string>
           </argument>
         </arguments>

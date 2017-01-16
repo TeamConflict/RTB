@@ -15,7 +15,7 @@ global.roomNum = 5;
 
 if(!global.levelStart){
     audio_stop_all();
-    audio_play_sound(snd_Level,100,true);
+    audio_play_sound(Bit_Chase_Chill_Mix,100,true);
     global.levelStart = true;
 }</code>
   <enableViews>0</enableViews>

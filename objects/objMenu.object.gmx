@@ -28,8 +28,9 @@
             <string>//name menu options
 
 menu[0] = "Start";
-menu[1] = "Credits";
-menu[2] = "Quit";
+menu[1] = "Continue";
+menu[2] = "Credits";
+menu[3] = "Quit";
 
 space = 64;
 mpos = 0;
