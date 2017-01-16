@@ -125,12 +125,12 @@
     <object>objects\objBarrier</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rmLevel2</room>
     <room>rooms\rmSplash</room>
     <room>rooms\rmMenu</room>
     <room>rooms\rmIntro</room>
     <room>rooms\rmGameInstructions</room>
     <room>rooms\rmSpace</room>
+    <room>rooms\rmLevel2</room>
     <room>rooms\rmCredits</room>
   </rooms>
   <help>

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(5,random_range(200, room_height-200),objMeteor);
+            <string>instance_create(5,random_range(270, room_height-270),objMeteor);
 </string>
           </argument>
         </arguments>

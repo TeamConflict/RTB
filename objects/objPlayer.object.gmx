@@ -3,7 +3,7 @@
   <spriteName>sprPlayer</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-1</depth>
+  <depth>5</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -41,6 +41,31 @@ global.collision = false;
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Display message and goto next room alarm
+textmessage("COMPLETE.",fntSugarpunch,0.8,250,275);
+alarm[2]=2*room_speed;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="2">
       <action>
         <libid>1</libid>
@@ -58,7 +83,9 @@ global.collision = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(5);
+            <string>///Goto next room
+global.levelStart=false;
+room_goto(global.roomNum+1);
 </string>
           </argument>
         </arguments>
@@ -84,17 +111,16 @@ global.collision = false;
             <string>///Complete level events
 with(objPlayer) 
 {
-    instance_create(888,618,objConfetti);
+    with(objPlanet1) 
+    {
+        instance_create(x-43,y-58,objConfetti);
+    }
     with(objConfetti) 
     {
         image_angle = 45;
-        image_speed = 0.75
+        image_speed = 0.75;
     }
-    instance_destroy();
 }
-
-textmessage("COMPLETE.",fntSugarpunch,0.8,250,275);
-
 </string>
           </argument>
         </arguments>
@@ -309,9 +335,9 @@ alarm[0] = 4;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_object(objPlanet1) &lt;= 0 &amp;&amp; phy_speed &lt;=0) {
+            <string>if (distance_to_object(objPlanet1) &lt;= 0 &amp;&amp; phy_speed &lt;=0 &amp;&amp; instance_number(objConfetti) &lt; 1) {
     alarm[1] = 1;
-    show_debug_message("hit");
+    alarm[3] = 3*room_speed;
 }
 </string>
           </argument>
