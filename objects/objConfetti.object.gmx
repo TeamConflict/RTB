@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>var snd = snd_Level;
+audio_play_sound(snd_applause,100,false);
 audio_sound_gain(snd,0,1000);
 var snd2 = audio_play_sound(snd_splash_1_2,100,true);
 audio_sound_gain(snd2,0,0);

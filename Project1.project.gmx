@@ -34,6 +34,7 @@
     <sound>sound\Just_Survive</sound>
     <sound>sound\Bit_Chase_Chill_Mix</sound>
     <sound>sound\Explosion_2</sound>
+    <sound>sound\snd_applause</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprPlayer</sprite>
