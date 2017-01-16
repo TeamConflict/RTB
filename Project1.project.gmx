@@ -3,6 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_placement</sound>
@@ -27,6 +28,13 @@
     <sound>sound\snd_21__instructionscreen</sound>
     <sound>sound\snd_22__instructionscreen</sound>
     <sound>sound\snd_23</sound>
+    <sound>sound\snd_Level</sound>
+    <sound>sound\Smooth_Pixels</sound>
+    <sound>sound\Only_One_Way_to_Play</sound>
+    <sound>sound\Times_Ticking</sound>
+    <sound>sound\Just_Survive</sound>
+    <sound>sound\Bit_Chase_Chill_Mix</sound>
+    <sound>sound\Explosion_2</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprPlayer</sprite>

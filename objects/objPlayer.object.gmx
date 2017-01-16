@@ -284,6 +284,7 @@ if(global.physicsEnabled){
             <string>if(!global.collision){
 global.collision = true;
 sprite_index = sprExplosion;
+audio_play_sound(Explosion_2,100,false);
 alarm[0] = 4;
 }
 </string>
@@ -336,6 +337,7 @@ alarm[0] = 4;
             <kind>1</kind>
             <string>if(!global.collision){
 sprite_index = sprExplosion;
+audio_play_sound(Explosion_2,100,false);
 alarm[0] = 5;
 global.collision = true;
 }

@@ -11,7 +11,8 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>global.roomNum = 0;
-audio_play_sound(snd_splash_1_2,100,100);</code>
+audio_play_sound(snd_splash_1_2,100,100);
+global.levelStart = false;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
