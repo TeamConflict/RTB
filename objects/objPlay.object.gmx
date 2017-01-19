@@ -78,7 +78,14 @@ if (global.physicsEnabled){
     }
     
     with(objPlayer) {
-        physics_apply_force(x,y,200,0);
+        if(global.roomNum == 4)
+        {
+            physics_apply_force(x,y,200,0);
+        }
+        else if (global.roomNum == 5)
+        {
+            physics_apply_force(x,y,200,50);
+        }
     }
     
 }

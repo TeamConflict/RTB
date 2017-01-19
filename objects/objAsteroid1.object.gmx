@@ -54,7 +54,7 @@ move_snap( sprite_get_width(sprSelectArea/3),sprite_get_height(sprSelectArea)-18
           <argument>
             <kind>1</kind>
             <string>///Move
-if(selected){
+if(selected &amp;&amp; !global.physicsEnabled){
     canSelect = false;
     x=mouse_x;
     y=mouse_y;

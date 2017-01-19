@@ -113,7 +113,7 @@ with(objPlayer)
 {
     with(objPlanet1) 
     {
-        instance_create(x-43,y-58,objConfetti);
+        instance_create(x-42,y-58,objConfetti);
     }
     with(objConfetti) 
     {
