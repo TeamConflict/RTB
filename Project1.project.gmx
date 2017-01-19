@@ -6,28 +6,8 @@
   <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\snd_placement</sound>
-    <sound>sound\snd_01</sound>
-    <sound>sound\snd_gamebackground</sound>
     <sound>sound\snd_splash_1_2</sound>
-    <sound>sound\sound6_lost</sound>
-    <sound>sound\snd_07</sound>
-    <sound>sound\snd_08</sound>
-    <sound>sound\snd_09__jump</sound>
-    <sound>sound\snd_10__lost_2</sound>
-    <sound>sound\snd_11__win</sound>
-    <sound>sound\snd_12__jump</sound>
-    <sound>sound\snd_13__gamebackground</sound>
-    <sound>sound\snd_lost</sound>
-    <sound>sound\snd_15__firstscreen</sound>
-    <sound>sound\snd_14</sound>
     <sound>sound\snd_16__credit_screen</sound>
-    <sound>sound\snd_17__creditscreen2</sound>
-    <sound>sound\snd_19__gamebackground</sound>
-    <sound>sound\snd_20_creditscreen</sound>
-    <sound>sound\snd_21__instructionscreen</sound>
-    <sound>sound\snd_22__instructionscreen</sound>
-    <sound>sound\snd_23</sound>
     <sound>sound\snd_Level</sound>
     <sound>sound\Smooth_Pixels</sound>
     <sound>sound\Only_One_Way_to_Play</sound>
@@ -39,16 +19,11 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprPlayer</sprite>
-    <sprite>sprites\sprPlanet</sprite>
     <sprite>sprites\sprPlanet1</sprite>
     <sprite>sprites\sprEarth</sprite>
     <sprite>sprites\sprMoon</sprite>
     <sprite>sprites\sprRockPlanet</sprite>
     <sprite>sprites\sprAsteroid1</sprite>
-    <sprite>sprites\sprAsteroid2</sprite>
-    <sprite>sprites\sprAsteroid3</sprite>
-    <sprite>sprites\sprRedPlanet</sprite>
-    <sprite>sprites\sprSaturn</sprite>
     <sprite>sprites\sprMossPortrait</sprite>
     <sprite>sprites\sprSelectArea</sprite>
     <sprite>sprites\sprMossSuit2</sprite>
@@ -65,6 +40,11 @@
     <sprite>sprites\sprMenuMoss</sprite>
     <sprite>sprites\sprBarrier</sprite>
     <sprite>sprites\sprBarrierFinal</sprite>
+    <sprite>sprites\sprBalloon1</sprite>
+    <sprite>sprites\sprBalloon2</sprite>
+    <sprite>sprites\sprBalloon3</sprite>
+    <sprite>sprites\sprCreditMoss</sprite>
+    <sprite>sprites\sprMoonwalk</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
@@ -124,15 +104,22 @@
     <object>objects\objGIContinue</object>
     <object>objects\objMeteorSpawn</object>
     <object>objects\objBarrier</object>
+    <object>objects\objCreditText</object>
+    <object>objects\objGreenBalloon</object>
+    <object>objects\objBalloonSpawner</object>
+    <object>objects\objPurpleBalloon</object>
+    <object>objects\objBlueBalloon</object>
+    <object>objects\objCreditMoss</object>
+    <object>objects\objMoonwalk</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rmCredits</room>
     <room>rooms\rmSplash</room>
     <room>rooms\rmMenu</room>
     <room>rooms\rmIntro</room>
     <room>rooms\rmGameInstructions</room>
     <room>rooms\rmSpace</room>
     <room>rooms\rmLevel2</room>
-    <room>rooms\rmCredits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
