@@ -124,6 +124,7 @@
     <object>objects\objGIContinue</object>
     <object>objects\objMeteorSpawn</object>
     <object>objects\objBarrier</object>
+    <object>objects\objScrollingScreen2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>
