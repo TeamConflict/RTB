@@ -64,6 +64,7 @@
     <sprite>sprites\sprDemoMoon</sprite>
     <sprite>sprites\sprMenuMoss</sprite>
     <sprite>sprites\sprBarrier</sprite>
+    <sprite>sprites\sprBarrierSprite2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
