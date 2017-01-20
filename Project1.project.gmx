@@ -16,6 +16,7 @@
     <sound>sound\Bit_Chase_Chill_Mix</sound>
     <sound>sound\Explosion_2</sound>
     <sound>sound\snd_applause</sound>
+    <sound>sound\snd_Balloon_Pop</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprPlayer</sprite>
@@ -48,6 +49,8 @@
     <sprite>sprites\sprDancingAlien</sprite>
     <sprite>sprites\sprDancingTardigrade</sprite>
     <sprite>sprites\sprDancingAlienReverse</sprite>
+    <sprite>sprites\sprTeamLogo</sprite>
+    <sprite>sprites\sprBalloon4</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
@@ -117,15 +120,18 @@
     <object>objects\objDancingAlien</object>
     <object>objects\objTardigrade1</object>
     <object>objects\objDancingAlienReverse</object>
+    <object>objects\objTeamLogo</object>
+    <object>objects\objCreditTitle1</object>
+    <object>objects\objCreditBalloon</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rmCredits</room>
     <room>rooms\rmSplash</room>
     <room>rooms\rmMenu</room>
     <room>rooms\rmIntro</room>
     <room>rooms\rmGameInstructions</room>
     <room>rooms\rmSpace</room>
     <room>rooms\rmLevel2</room>
+    <room>rooms\rmCredits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

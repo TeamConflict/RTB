@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-100</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -36,7 +36,8 @@ someText += "Reset Button ............ The Eyecons#";
 someText += "Play Button .............. Field 5 Agata Kuczminska#";
 someText += "UI planet select ........ Buch#";
 someText += "Portrait Window ....... Buch#";
-someText += "Spacesuit .................. VladdyBoy##";
+someText += "Spacesuit .................. VladdyBoy#";
+someText += "Dancing Aliens ......... IgnasD##";
 someText += "Background                        Author##";
 someText += "Splash/Menu/Intro .... default #";
 someText += "Level ......................... default#";
@@ -53,6 +54,10 @@ someText += "Marketplace for more cool assets.#";
 y = room_height;   
 x = room_width/5; 
 vspeed = -1;
+
+instance_create(x+32,y-29,objCreditBalloon);
+instance_create(x+600,y-29,objCreditBalloon);
+
 </string>
           </argument>
         </arguments>
@@ -75,13 +80,7 @@ vspeed = -1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//draw_set_colour(c_yellow);
-//draw_set_font(fntScrollingText);
-//draw_set_halign(fa_center);
-//draw_text(room_width/2,y,someText);
-//if( y&lt; -string_height(someText)){
- //   y = room_height;
-//}
+            <string>
 padding = 16;
 maxlength = view_wview[0];
     
@@ -95,7 +94,7 @@ text_height = string_height_ext(someText,font_size+(font_size/2),maxlength);
     
 boxwidth = text_width + (padding*2);
 boxheight = text_height + (padding*2);
-draw_set_alpha(0.8);
+draw_set_alpha(0.65);
 draw_set_color(c_white);
 draw_rectangle(x,y,x+boxwidth,y+boxheight,0);
 draw_set_color(c_gray);

@@ -11,6 +11,7 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>global.roomNum = 6;
+global.balloonPopped = false;
 audio_stop_all();
 
 audio_play_sound(snd_16__credit_screen,100,100);</code>
@@ -54,19 +55,19 @@ audio_play_sound(snd_16__credit_screen,100,100);</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objCreditText" x="352" y="384" name="inst_D0FFAF8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBalloonSpawner" x="64" y="480" name="inst_CED016FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCreditMoss" x="64" y="608" name="inst_4CC59FE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreditMoss" x="448" y="608" name="inst_4CC59FE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMoonwalk" x="192" y="640" name="inst_681B7859" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDancingAlien" x="288" y="448" name="inst_4164B0A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objTardigrade1" x="672" y="448" name="inst_32FAD916" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objTardigrade1" x="448" y="576" name="inst_4007F70C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTardigrade1" x="64" y="608" name="inst_4007F70C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDancingAlien" x="704" y="640" name="inst_61154E3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDancingAlienReverse" x="960" y="640" name="inst_1A4D2F10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPurpleBalloon" x="32" y="384" name="inst_DC75787D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPurpleBalloon" x="480" y="384" name="inst_657CD897" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGreenBalloon" x="896" y="576" name="inst_B442F840" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlueBalloon" x="320" y="256" name="inst_0135C963" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreditTitle1" x="512" y="352" name="inst_87AE8AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
