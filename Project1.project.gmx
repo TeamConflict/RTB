@@ -45,6 +45,9 @@
     <sprite>sprites\sprBalloon3</sprite>
     <sprite>sprites\sprCreditMoss</sprite>
     <sprite>sprites\sprMoonwalk</sprite>
+    <sprite>sprites\sprDancingAlien</sprite>
+    <sprite>sprites\sprDancingTardigrade</sprite>
+    <sprite>sprites\sprDancingAlienReverse</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
@@ -111,6 +114,9 @@
     <object>objects\objBlueBalloon</object>
     <object>objects\objCreditMoss</object>
     <object>objects\objMoonwalk</object>
+    <object>objects\objDancingAlien</object>
+    <object>objects\objTardigrade1</object>
+    <object>objects\objDancingAlienReverse</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmCredits</room>
