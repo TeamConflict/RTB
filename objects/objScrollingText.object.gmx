@@ -25,29 +25,27 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>someText = "Tardigrades originate from an advanced super genius race, called Protograde. #"
-someText += "Protogrades look exactly like tardigrades except a lot larger. They are the OG #"
-someText += "sentient species. In order to advance life across the universe (or multiverse),#"
-someText += "tiny tardigrades were scientifically engineered to withstand extreme conditions.#"
-someText += "This species is proof of the Panspermia hypothesis as they are starting life on #"
-someText += "new uninhabited planets around the universe.#"
-someText += "
-"
-someText += "Meet Moss.P the youngest of 19, son of the Protograde leader Johann Goeze #"
-someText += "unlike his siblings Walter Bearington and Tara Grande he wants to party and is#"
-someText += "looking for happening planets already full of life to party with and this is most#"
-someText += " likely why we have the Fermi paradox which questions why if theirs billions of#"
-someText += " galaxies all around us but no signs of any detectable life and turns out#"
-someText += " ITS ALL MOSS.P's FAULT because he likes to party instead of contributing to#"
-someText += "Johanns life work.#"
-someText += "
-"
+            <string>someText = "Tardigrades originate from an advanced super genius race, called Protograde.#"
+someText += "Protogrades look exactly like tardigrades except a lot larger. They are#"
+someText += "the OG sentient species and their mission is to to advance life across the#"
+someText += "universe (or multiverse). In order to achieve this, tiny tardigrades were#"
+someText += "scientifically engineered to withstand extreme conditions. This species is#"
+someText += "proof of the Panspermia hypothesis as they are starting life on new#"
+someText += "uninhabited planets around the universe.###"
+someText += "Meet Moss.P the youngest of 19, son of the Protograde leader Johann Goeze.#"
+someText += "Unlike his super successful siblings Walter Bearington and Tara Grande, he#"
+someText += "just wants to party and is looking for happening planets already full of#"
+someText += "life to party with. This is most likely why the Fermi paradox exists. The#"
+someText += "theory which questions why there are billions of galaxies all around us but#"
+someText += "no signs of any detectable life. Turns out IT IS ALL MOSS P's FAULT because#"
+someText += "he likes to party instead of contributing to Johann's life work.###"
+someText += "But enough of all that sciencey voodoo.#"
 someText += "Moss.P needs your help to get to the party!"
 
 
 
 y = room_height;    
-vspeed = -1;
+vspeed = -0.8;
 </string>
           </argument>
         </arguments>

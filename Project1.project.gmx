@@ -77,52 +77,63 @@
     <font>fonts\fntPaperlandSmall</font>
   </fonts>
   <objects name="objects">
-    <object>objects\objControl</object>
-    <object>objects\objPlay</object>
-    <object>objects\objPlayer</object>
-    <object>objects\objPlanet</object>
-    <object>objects\objPlanet1</object>
-    <object>objects\objAsteroid1</object>
-    <object>objects\objMeteor</object>
-    <object>objects\objSelect</object>
-    <object>objects\objMossPortrait</object>
-    <object>objects\objTitle</object>
-    <object>objects\objSpacebar</object>
-    <object>objects\objMossSuit</object>
-    <object>objects\objReset</object>
+    <objects name="Splash">
+      <object>objects\objTitle</object>
+      <object>objects\objSpacebar</object>
+      <object>objects\objMossSuit</object>
+    </objects>
+    <objects name="Menu">
+      <object>objects\objmosssuit22</object>
+      <object>objects\objMenu</object>
+    </objects>
+    <objects name="Intro">
+      <object>objects\objScrollingText</object>
+    </objects>
+    <objects name="Game Instructions">
+      <object>objects\objDemoPlay</object>
+      <object>objects\objDemoReset</object>
+      <object>objects\objDemoSelect</object>
+      <object>objects\sprDemoEarth</object>
+      <object>objects\sprDemoAsteroid</object>
+      <object>objects\objDemoPlanet</object>
+      <object>objects\objDemoArrow</object>
+      <object>objects\objDemoMossP</object>
+      <object>objects\objDemoPlayer</object>
+      <object>objects\objGameInstructions</object>
+      <object>objects\objGIContinue</object>
+    </objects>
+    <objects name="Level">
+      <object>objects\objControl</object>
+      <object>objects\objPlay</object>
+      <object>objects\objPlayer</object>
+      <object>objects\objPlanet</object>
+      <object>objects\objPlanet1</object>
+      <object>objects\objAsteroid1</object>
+      <object>objects\objMeteor</object>
+      <object>objects\objSelect</object>
+      <object>objects\objMossPortrait</object>
+      <object>objects\objReset</object>
+      <object>objects\objConfetti</object>
+      <object>objects\objMeteorSpawn</object>
+      <object>objects\objBarrier</object>
+    </objects>
+    <objects name="Credits">
+      <object>objects\objBlueBalloon</object>
+      <object>objects\objCreditTitle1</object>
+      <object>objects\objCreditBalloon</object>
+      <object>objects\objTeamLogo</object>
+      <object>objects\objDancingAlienReverse</object>
+      <object>objects\objTardigrade1</object>
+      <object>objects\objDancingAlien</object>
+      <object>objects\objCreditText</object>
+      <object>objects\objMoonwalk</object>
+      <object>objects\objCreditMoss</object>
+      <object>objects\objPurpleBalloon</object>
+      <object>objects\objBalloonSpawner</object>
+      <object>objects\objGreenBalloon</object>
+    </objects>
     <object>objects\objtext</object>
-    <object>objects\objMenu</object>
     <object>objects\objFade</object>
-    <object>objects\objScrollingText</object>
-    <object>objects\objCamera</object>
-    <object>objects\objmosssuit22</object>
-    <object>objects\objDemoPlay</object>
-    <object>objects\objDemoReset</object>
-    <object>objects\objDemoSelect</object>
-    <object>objects\objDemoPlanet</object>
-    <object>objects\sprDemoAsteroid</object>
-    <object>objects\sprDemoEarth</object>
-    <object>objects\objDemoMossP</object>
-    <object>objects\objDemoPlayer</object>
-    <object>objects\objDemoArrow</object>
-    <object>objects\objGameInstructions</object>
-    <object>objects\objConfetti</object>
-    <object>objects\objGIContinue</object>
-    <object>objects\objMeteorSpawn</object>
-    <object>objects\objBarrier</object>
-    <object>objects\objCreditText</object>
-    <object>objects\objGreenBalloon</object>
-    <object>objects\objBalloonSpawner</object>
-    <object>objects\objPurpleBalloon</object>
-    <object>objects\objBlueBalloon</object>
-    <object>objects\objCreditMoss</object>
-    <object>objects\objMoonwalk</object>
-    <object>objects\objDancingAlien</object>
-    <object>objects\objTardigrade1</object>
-    <object>objects\objDancingAlienReverse</object>
-    <object>objects\objTeamLogo</object>
-    <object>objects\objCreditTitle1</object>
-    <object>objects\objCreditBalloon</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>
