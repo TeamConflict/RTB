@@ -51,6 +51,10 @@
     <sprite>sprites\sprDancingAlienReverse</sprite>
     <sprite>sprites\sprTeamLogo</sprite>
     <sprite>sprites\sprBalloon4</sprite>
+    <sprite>sprites\bh1</sprite>
+    <sprite>sprites\sprbh2</sprite>
+    <sprite>sprites\sprbh3</sprite>
+    <sprite>sprites\spr4</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
