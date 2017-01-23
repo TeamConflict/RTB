@@ -147,6 +147,7 @@
     <room>rooms\rmGameInstructions</room>
     <room>rooms\rmSpace</room>
     <room>rooms\rmLevel2</room>
+    <room>rooms\rmLevel3</room>
     <room>rooms\rmCredits</room>
   </rooms>
   <help>

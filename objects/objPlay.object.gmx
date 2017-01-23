@@ -52,7 +52,9 @@ global.canClick=true;
             <string>///Setting physics
 if (global.physicsEnabled){
     with(objPlanet){
-        if (y &lt;= 648) {
+        //x and y of the planet position, left of the rectangle, top of the rectangle, right of the rectangle, bottom of the rectangle
+        //checking if the planet is still in the ui selection tool
+        if(!point_in_rectangle(x,y,0,648,352,760)) {
             var phyPlanet;
             phyPlanet = physics_fixture_create();
             physics_fixture_set_circle_shape(phyPlanet, (sprite_get_width(sprMoon) / 2));
@@ -65,7 +67,9 @@ if (global.physicsEnabled){
     }
     
     with(objAsteroid1){
-        if (y &lt;= 648) {
+        //x and y of the planet position, left of the rectangle, top of the rectangle, right of the rectangle, bottom of the rectangle
+        //checking if the planet is still in the ui selection tool
+        if(!point_in_rectangle(x,y,0,648,352,760)) {
             var phyAsteroid;
             phyAsteroid = physics_fixture_create();
             physics_fixture_set_circle_shape(phyAsteroid, (sprite_get_width(sprAsteroid1) / 2));
@@ -85,6 +89,10 @@ if (global.physicsEnabled){
         else if (global.roomNum == 5)
         {
             physics_apply_force(x,y,200,50);
+        }
+        else 
+        {
+            physics_apply_force(x,y,200,0);
         }
     }
     

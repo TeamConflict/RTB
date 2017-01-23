@@ -181,7 +181,9 @@ physics_apply_force(x,y,0,-25);
 image_speed = 0.6;
 if(global.physicsEnabled){
         with (objPlanet) {
-            if(y &lt;= 648) {
+            //x and y of the planet position, left of the rectangle, top of the rectangle, right of the rectangle, bottom of the rectangle
+            //checking if the planet is still in the ui selection tool
+            if(!point_in_rectangle(x,y,0,648,352,760)) {
                 dist = (point_distance(x,y,other.x,other.y) - (sprite_get_width(sprMoon)/2));
                 dir = point_direction(other.x,other.y,x,y);
                 //show_debug_message("Moon "+string(id)+" "+string(dist));
@@ -252,7 +254,9 @@ if(global.physicsEnabled){
     }
     
     with (objAsteroid1) {
-        if (y &lt;= 648) {
+        //x and y of the planet position, left of the rectangle, top of the rectangle, right of the rectangle, bottom of the rectangle
+        //checking if the planet is still in the ui selection tool
+        if (!point_in_rectangle(x,y,352,648,0,760)) {
             dist = (point_distance(x,y,other.x,other.y) - (sprite_get_width(sprEarth) / 2));
             dir = point_direction(other.x,other.y,x,y);
         //show_debug_message("Asteroid "+string(id)+" "+string(dist));    
@@ -284,7 +288,8 @@ if(global.physicsEnabled){
     }
     
     //70% of room width and the starting y position of the player
-    if(phy_position_x &gt; (room_width * 0.7) &amp;&amp; phy_position_y &lt;= 64) {
+    //Also checks which room we're in
+    if(phy_position_x &gt; (room_width * 0.7) &amp;&amp; phy_position_y &lt;= 64 &amp;&amp; phy_position_y &gt; 62 &amp;&amp; global.roomNum == 4) {
         show_debug_message(phy_position_x);
         show_debug_message(phy_position_y);
         instance_destroy();
