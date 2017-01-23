@@ -61,6 +61,7 @@
     <background>background\bkgColourSpace</background>
     <background>background\bkgSpace2</background>
     <background>background\bkgCredits</background>
+    <background>background\bkgLevel3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
