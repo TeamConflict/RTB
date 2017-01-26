@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>someText = "Tardigrades originate from an advanced super genius race, called Protograde.#"
 someText += "Protogrades look exactly like tardigrades except a lot larger. They are#"
-someText += "the OG sentient species and their mission is to to advance life across the#"
+someText += "the OG sentient species and their mission is to advance life across the#"
 someText += "universe (or multiverse). In order to achieve this, tiny tardigrades were#"
 someText += "scientifically engineered to withstand extreme conditions. This species is#"
 someText += "proof of the Panspermia hypothesis as they are starting life on new#"
@@ -39,13 +39,37 @@ someText += "life to party with. This is most likely why the Fermi paradox exist
 someText += "theory which questions why there are billions of galaxies all around us but#"
 someText += "no signs of any detectable life. Turns out IT IS ALL MOSS P's FAULT because#"
 someText += "he likes to party instead of contributing to Johann's life work.###"
-someText += "But enough of all that sciencey voodoo.#"
-someText += "Moss.P needs your help to get to the party!"
-
+someText += "But enough of all that sciencey mumbo jumbo.#"
+someText += "Moss.P needs your help to get to the party!###"
+someText += "(Click To Continue)"
 
 
 y = room_height;    
 vspeed = -0.8;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="56">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.roomNum = 3;
+instance_create(0,0,objFade);
 </string>
           </argument>
         </arguments>
