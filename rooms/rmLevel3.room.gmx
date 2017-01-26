@@ -13,7 +13,7 @@
   <code>textmessage("Help me get to the party.#You're my only hope.",fntMessage,0.8,140,20);
 
 global.roomNum = 6;
-global.levelStart = true;
+
 
 if(!global.levelStart){
     audio_stop_all();
