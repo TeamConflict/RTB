@@ -51,6 +51,7 @@
     <sprite>sprites\bh1</sprite>
     <sprite>sprites\sprbh2</sprite>
     <sprite>sprites\spr4</sprite>
+    <sprite>sprites\sprHome</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgPixelStars</background>
