@@ -83,6 +83,8 @@ if(selected &amp;&amp; !global.physicsEnabled){
 selected = false;
 //Enable selecting a planet
 global.canSelect = true;
+
+
 </string>
           </argument>
         </arguments>
@@ -107,6 +109,29 @@ global.canSelect = true;
             <kind>1</kind>
             <string>///Setting canClick
 //Enable clicking on the button
+
+if(place_meeting(x+10,y,objPlanet))
+{
+    x -=sprite_get_width(sprMoon);
+    show_debug_message("x+10");
+}
+else if(place_meeting(x-10,y,objPlanet))
+{
+    x += sprite_get_width(sprMoon);
+    show_debug_message("x-10");
+}
+
+if(place_meeting(x,y+10,objPlanet))
+{
+    y -= sprite_get_height(sprMoon);
+    show_debug_message("y+10");
+}
+else if(place_meeting(x,y-10,objPlanet))
+{
+    y += sprite_get_height(sprMoon);
+    show_debug_message("y-10");
+}
+
 global.canClick = true;
 </string>
           </argument>
