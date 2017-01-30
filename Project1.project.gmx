@@ -70,6 +70,7 @@
   <scripts name="scripts">
     <script>scripts\textmessage.gml</script>
     <script>scripts\Menu.gml</script>
+    <script>scripts\scale_canvas.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fntPaperland</font>
@@ -140,6 +141,7 @@
     </objects>
     <object>objects\objtext</object>
     <object>objects\objFade</object>
+    <object>objects\objScaling</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>
