@@ -12,6 +12,7 @@
   <showcolour>-1</showcolour>
   <code>global.roomNum = 0;
 audio_play_sound(snd_splash_1_2,100,100);
+//sound_play(snd_splash_1_2);
 global.levelStart = false;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
@@ -56,6 +57,7 @@ global.levelStart = false;</code>
     <instance objName="objTitle" x="288" y="160" name="inst_1137368E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpacebar" x="288" y="448" name="inst_A780DBB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMossSuit" x="480" y="352" name="inst_72F93CB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objScaling" x="224" y="256" name="inst_B9773E37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
