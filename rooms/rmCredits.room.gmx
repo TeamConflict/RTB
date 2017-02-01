@@ -68,6 +68,7 @@ audio_play_sound(snd_16__credit_screen,100,100);</code>
     <instance objName="objGreenBalloon" x="896" y="576" name="inst_B442F840" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlueBalloon" x="320" y="256" name="inst_0135C963" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCreditTitle1" x="512" y="352" name="inst_87AE8AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objScaling" x="96" y="256" name="inst_27D7BBFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

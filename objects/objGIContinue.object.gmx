@@ -51,7 +51,7 @@
             <string>draw_set_alpha(1);
 draw_set_font(fntPaperlandSmall);
 draw_set_colour(c_white);
-draw_text(room_width/2-155,50,"[Click to Continue]");
+draw_text(room_width/2-100,50,"[Click to Continue]");
 </string>
           </argument>
         </arguments>
