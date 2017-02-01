@@ -80,7 +80,7 @@ random_range(170+sprite_get_width(bh1),800-sprite_get_width(bh1)),
     <instance objName="objPlay" x="392" y="704" name="inst_44B294F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAsteroid1" x="288" y="712" name="inst_AD508C3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objReset" x="472" y="704" name="inst_0FBE285B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_menue_button" x="576" y="728" name="inst_F0F8FD77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menue_button" x="552" y="704" name="inst_F0F8FD77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objScaling" x="112" y="384" name="inst_0629B25D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

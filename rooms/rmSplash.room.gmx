@@ -13,7 +13,8 @@
   <code>global.roomNum = 0;
 audio_play_sound(snd_splash_1_2,100,100);
 //sound_play(snd_splash_1_2);
-global.levelStart = false;</code>
+global.levelStart = false;
+global.menuButton = false;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
