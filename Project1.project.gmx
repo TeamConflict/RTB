@@ -54,6 +54,7 @@
     <sprite>sprites\bh1</sprite>
     <sprite>sprites\sprbh2</sprite>
     <sprite>sprites\spr4</sprite>
+    <sprite>sprites\spr_menu_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkgStars</background>
@@ -106,6 +107,8 @@
       <object>objects\objDemoPlayer</object>
       <object>objects\objGameInstructions</object>
       <object>objects\objGIContinue</object>
+      <object>objects\object48</object>
+      <object>objects\object49</object>
     </objects>
     <objects name="Level">
       <object>objects\objControl</object>
@@ -122,6 +125,7 @@
       <object>objects\objMeteorSpawn</object>
       <object>objects\objBarrier</object>
       <object>objects\objBlackHole</object>
+      <object>objects\obj_menue_button</object>
     </objects>
     <objects name="Credits">
       <object>objects\objBlueBalloon</object>
