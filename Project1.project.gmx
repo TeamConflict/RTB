@@ -93,6 +93,7 @@
     <objects name="Intro">
       <object>objects\objScrollingText</object>
       <object>objects\objMossInSuitIntro</object>
+      <object>objects\objTimer</object>
     </objects>
     <objects name="Game Instructions">
       <object>objects\objDemoPlay</object>

@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>someText = "Tardigrades originate from an advanced super genius race, called Protograde.#"
+            <string>
+someText = "######################"
+someText += "Tardigrades originate from an advanced super genius race, called Protograde.#"
 someText += "Protogrades look exactly like tardigrades except a lot larger. They are#"
 someText += "the OG sentient species and their mission is to advance life across the#"
 someText += "universe (or multiverse). In order to achieve this, tiny tardigrades were#"
@@ -41,7 +43,7 @@ someText += "no signs of any detectable life. Turns out IT IS ALL MOSS P's FAULT
 someText += "he likes to party instead of contributing to Johann's life work.###"
 someText += "But enough of all that sciencey mumbo jumbo.#"
 someText += "Moss.P needs your help to get to the party!###"
-someText += "(Click To Continue)"
+
 
 
 y = room_height;    
