@@ -10,7 +10,24 @@
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
-  <code>textmessage("Help me get to the party.#Meteors are deadly.",fntMessage,0.8,140,20);
+  <code>var textNum = irandom(3);
+
+switch(textNum){
+    case 0:
+    textmessage("To boldly go where no tardigrade has gone before...",fntMessage,0.8,140,20);
+    break;
+    case 1:
+    textmessage("When it's time to party we will party tardihard!",fntMessage,0.8,140,20);
+    break;
+    case 2:
+    textmessage("I'd far rather be partying than right any day.",fntMessage,0.8,140,20);
+    break;
+    case 3:
+    textmessage("Help me get to the party.#Meteors are deadly.",fntMessage,0.8,140,20);
+    break;
+}
+
+
 global.roomNum = 5;
 
 if(!global.levelStart){

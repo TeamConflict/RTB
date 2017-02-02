@@ -10,8 +10,22 @@
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
-  <code>textmessage("Help me get to the party.#You're my only hope.",fntMessage,0.8,140,20);
+  <code>var textNum = irandom(3);
 
+switch(textNum){
+    case 0:
+    textmessage("Help me get to the party.#You're my only hope.",fntMessage,0.8,140,20);
+    break;
+    case 1:
+    textmessage("DON'T PANIC. Grab your towel and get me to that party!",fntMessage,0.8,140,20);
+    break;
+    case 2:
+    textmessage("Live long and party!",fntMessage,0.8,140,20);
+    break;
+    case 3:
+    textmessage("You're a Tardigrade, Moss P.",fntMessage,0.8,140,20);
+    break;
+}
 global.roomNum = 4;
 
 if(!global.levelStart){

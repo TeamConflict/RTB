@@ -10,7 +10,22 @@
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
-  <code>textmessage("Help me get to the party.#You're my only hope.",fntMessage,0.8,140,20);
+  <code>var textNum = irandom(3);
+
+switch(textNum){
+    case 0:
+    textmessage("Hi, I'm Moss.P and I'm still alive... obviously.",fntMessage,0.8,140,20);
+    break;
+    case 1:
+    textmessage("Nobody exists on purpose. Nobody belongs anywhere.#Everybody’s gonna die. Come Party?",fntMessage,0.8,140,20);
+    break;
+    case 2:
+    textmessage("In your face Neil Armstrong.",fntMessage,0.8,140,20);
+    break;
+    case 3:
+    textmessage("Moss.P, Space Pirate.",fntMessage,0.8,140,20);
+    break;
+}
 
 global.roomNum = 6;
 
