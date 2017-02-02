@@ -108,6 +108,75 @@ global.canSelect = true;
           <argument>
             <kind>1</kind>
             <string>///Setting canClick
+
+/*** 
+    Moon Planet 
+***/
+//Left &amp; Right
+if(place_meeting(x+10,y,objPlanet))
+{
+    if(selected)
+    {
+        x -= sprite_get_width(sprMoon);
+    }
+}
+else if(place_meeting(x-10,y,objPlanet))
+{
+    if(selected)
+    {
+        x += sprite_get_width(sprMoon);
+    }
+}
+//Up &amp; Down
+if(place_meeting(x,y+10,objPlanet))
+{
+    if(selected)
+    {
+        y -= sprite_get_height(sprMoon);
+    }
+}
+else if(place_meeting(x,y-10,objPlanet))
+{
+    if(selected)
+    {
+        y += sprite_get_height(sprMoon);
+    }
+}
+
+/*** 
+    Earth Planet 
+***/
+//Left &amp; Right
+if(place_meeting(x+10,y,objPlanet1))
+{
+    if(selected)
+    {
+        x -= sprite_get_width(sprEarth);
+    }
+}
+else if(place_meeting(x-10,y,objPlanet1))
+{
+    if(selected)
+    {
+        x += sprite_get_width(sprEarth);
+    }
+}
+//Up &amp; Down
+if(place_meeting(x,y+10,objPlanet1))
+{
+    if(selected)
+    {
+        y -= sprite_get_height(sprEarth);
+    }
+}
+else if(place_meeting(x,y-10,objPlanet1))
+{
+    if(selected)
+    {
+        y += sprite_get_height(sprEarth);
+    }
+}
+
 //Enable clicking on the button
 global.canClick = true;
 </string>

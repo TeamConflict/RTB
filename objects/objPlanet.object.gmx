@@ -108,14 +108,16 @@ global.canSelect = true;
           <argument>
             <kind>1</kind>
             <string>///Setting canClick
-//Enable clicking on the button
 
+/*** 
+    Moon Planet 
+***/
+//Left &amp; Right
 if(place_meeting(x+10,y,objPlanet))
 {
     if(selected)
     {
         x -= sprite_get_width(sprMoon);
-        show_debug_message("x+10");
     }
 }
 else if(place_meeting(x-10,y,objPlanet))
@@ -123,16 +125,14 @@ else if(place_meeting(x-10,y,objPlanet))
     if(selected)
     {
         x += sprite_get_width(sprMoon);
-        show_debug_message("x-10");
     }
 }
-
+//Up &amp; Down
 if(place_meeting(x,y+10,objPlanet))
 {
     if(selected)
     {
         y -= sprite_get_height(sprMoon);
-        show_debug_message("y+10");
     }
 }
 else if(place_meeting(x,y-10,objPlanet))
@@ -140,46 +140,79 @@ else if(place_meeting(x,y-10,objPlanet))
     if(selected)
     {
         y += sprite_get_height(sprMoon);
-        show_debug_message("y-10");
     }
 }
 
-
-
+/*** 
+    Asteroid Planet
+***/
+//Left &amp; Right
 if(place_meeting(x+10,y,objAsteroid1))
 {
     if(selected)
     {
-        x -= sprite_get_width(sprRockPlanet);
-        show_debug_message("x+10");
+        x -= sprite_get_width(sprMoon);
     }
 }
 else if(place_meeting(x-10,y,objAsteroid1))
 {
     if(selected)
     {
-        x += sprite_get_width(sprRockPlanet);
-        show_debug_message("x-10");
+        x += sprite_get_width(sprMoon);
     }
 }
-
+//Up &amp; Down
 if(place_meeting(x,y+10,objAsteroid1))
 {
     if(selected)
     {
-        y -= sprite_get_height(sprRockPlanet);
-        show_debug_message("y+10");
+        y -= sprite_get_height(sprMoon);
     }
 }
 else if(place_meeting(x,y-10,objAsteroid1))
 {
     if(selected)
     {
-        y += sprite_get_height(sprRockPlanet);
-        show_debug_message("y-10");
+        y += sprite_get_height(sprMoon);
     }
 }
 
+
+/*** 
+    Earth Planet 
+***/
+//Left &amp; Right
+if(place_meeting(x+10,y,objPlanet1))
+{
+    if(selected)
+    {
+        x -= sprite_get_width(sprEarth);
+    }
+}
+else if(place_meeting(x-10,y,objPlanet1))
+{
+    if(selected)
+    {
+        x += sprite_get_width(sprEarth);
+    }
+}
+//Up &amp; Down
+if(place_meeting(x,y+10,objPlanet1))
+{
+    if(selected)
+    {
+        y -= sprite_get_height(sprEarth);
+    }
+}
+else if(place_meeting(x,y-10,objPlanet1))
+{
+    if(selected)
+    {
+        y += sprite_get_height(sprEarth);
+    }
+}
+
+//Enable clicking on the button
 global.canClick = true;
 </string>
           </argument>
