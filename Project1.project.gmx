@@ -10,9 +10,6 @@
     <sound>sound\snd_16__credit_screen</sound>
     <sound>sound\snd_Level</sound>
     <sound>sound\Smooth_Pixels</sound>
-    <sound>sound\Only_One_Way_to_Play</sound>
-    <sound>sound\Times_Ticking</sound>
-    <sound>sound\Just_Survive</sound>
     <sound>sound\Bit_Chase_Chill_Mix</sound>
     <sound>sound\Explosion_2</sound>
     <sound>sound\snd_applause</sound>
@@ -54,15 +51,12 @@
     <sprite>sprites\bh1</sprite>
     <sprite>sprites\sprbh2</sprite>
     <sprite>sprites\spr4</sprite>
+    <sprite>sprites\spr_menu_button</sprite>
+    <sprite>sprites\sprHome</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bkgStars</background>
-    <background>background\bkgBlueStars</background>
     <background>background\bkgPixelStars</background>
-    <background>background\bkgSmallStars</background>
     <background>background\bkgSpace</background>
-    <background>background\bkgColourSpace</background>
-    <background>background\bkgSpace2</background>
     <background>background\bkgCredits</background>
     <background>background\bkgLevel3</background>
   </backgrounds>
@@ -70,6 +64,7 @@
   <scripts name="scripts">
     <script>scripts\textmessage.gml</script>
     <script>scripts\Menu.gml</script>
+    <script>scripts\scale_canvas.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fntPaperland</font>
@@ -107,6 +102,8 @@
       <object>objects\objDemoPlayer</object>
       <object>objects\objGameInstructions</object>
       <object>objects\objGIContinue</object>
+      <object>objects\object48</object>
+      <object>objects\object49</object>
     </objects>
     <objects name="Level">
       <object>objects\objControl</object>
@@ -123,6 +120,7 @@
       <object>objects\objMeteorSpawn</object>
       <object>objects\objBarrier</object>
       <object>objects\objBlackHole</object>
+      <object>objects\obj_menue_button</object>
     </objects>
     <objects name="Credits">
       <object>objects\objBlueBalloon</object>
@@ -141,6 +139,8 @@
     </objects>
     <object>objects\objtext</object>
     <object>objects\objFade</object>
+    <object>objects\objSound</object>
+    <object>objects\objScaling</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmSplash</room>
@@ -152,6 +152,10 @@
     <room>rooms\rmLevel3</room>
     <room>rooms\rmCredits</room>
   </rooms>
+  <constants number="2">
+    <constant name="base_width">room_width</constant>
+    <constant name="base_height">room_height</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>

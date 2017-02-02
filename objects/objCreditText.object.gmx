@@ -30,7 +30,7 @@ someText = "                                   CREDITS##";
 someText += "Sprite                                   Author##";
 someText += "Moss P. Design ........ Amoeba Sisters#";
 someText += "Planets ..................... Black Moon Dev#";
-someText += "Ateroid ..................... Meowx Design and Animation#";
+someText += "Asteroid ..................... Meowx Design and Animation#";
 someText += "Explosion ................. Lucas Beyer#";
 someText += "Reset Button ............ The Eyecons#";
 someText += "Play Button .............. Field 5 Agata Kuczminska#";
@@ -49,6 +49,7 @@ someText += "Level 1 ...................... Red Line Games#";
 someText += "Level 2 ...................... Lucky Pixel#";
 someText += "Applause ................... freesoundeffects.com#";
 someText += "Credits ...................... syncopika##";
+someText += "For full credit details, go to bis.siast.sk.ca/fit/rtb/info##"
 someText += "Check out OpenGameArt.org or the YoYo Games#";
 someText += "Marketplace for more cool assets.#";
 y = room_height;   
@@ -81,8 +82,31 @@ instance_create(x+600,y-29,objCreditBalloon);
           <argument>
             <kind>1</kind>
             <string>if(y &lt; -950){
-    game_end();
+    room_goto(1);
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>url_open_ext("bisiisdev/fit/rtb/info.html", "_blank");
 </string>
           </argument>
         </arguments>
