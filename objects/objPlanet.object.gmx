@@ -112,24 +112,72 @@ global.canSelect = true;
 
 if(place_meeting(x+10,y,objPlanet))
 {
-    x -=sprite_get_width(sprMoon);
-    show_debug_message("x+10");
+    if(selected)
+    {
+        x -= sprite_get_width(sprMoon);
+        show_debug_message("x+10");
+    }
 }
 else if(place_meeting(x-10,y,objPlanet))
 {
-    x += sprite_get_width(sprMoon);
-    show_debug_message("x-10");
+    if(selected)
+    {
+        x += sprite_get_width(sprMoon);
+        show_debug_message("x-10");
+    }
 }
 
 if(place_meeting(x,y+10,objPlanet))
 {
-    y -= sprite_get_height(sprMoon);
-    show_debug_message("y+10");
+    if(selected)
+    {
+        y -= sprite_get_height(sprMoon);
+        show_debug_message("y+10");
+    }
 }
 else if(place_meeting(x,y-10,objPlanet))
 {
-    y += sprite_get_height(sprMoon);
-    show_debug_message("y-10");
+    if(selected)
+    {
+        y += sprite_get_height(sprMoon);
+        show_debug_message("y-10");
+    }
+}
+
+
+
+if(place_meeting(x+10,y,objAsteroid1))
+{
+    if(selected)
+    {
+        x -= sprite_get_width(sprRockPlanet);
+        show_debug_message("x+10");
+    }
+}
+else if(place_meeting(x-10,y,objAsteroid1))
+{
+    if(selected)
+    {
+        x += sprite_get_width(sprRockPlanet);
+        show_debug_message("x-10");
+    }
+}
+
+if(place_meeting(x,y+10,objAsteroid1))
+{
+    if(selected)
+    {
+        y -= sprite_get_height(sprRockPlanet);
+        show_debug_message("y+10");
+    }
+}
+else if(place_meeting(x,y-10,objAsteroid1))
+{
+    if(selected)
+    {
+        y += sprite_get_height(sprRockPlanet);
+        show_debug_message("y-10");
+    }
 }
 
 global.canClick = true;
