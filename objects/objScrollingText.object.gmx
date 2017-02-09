@@ -47,7 +47,7 @@ someText += "Moss.P needs your help to get to the party!###"
 
 
 y = room_height;    
-vspeed = -0.8;
+vspeed = -0.6;
 </string>
           </argument>
         </arguments>
