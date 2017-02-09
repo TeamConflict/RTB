@@ -63,3 +63,5 @@ Configs/Default.config.gmx
 *.crdownload
 extensions/yymanifest.xml
 objects/objScrollingScreen2.object.gmx
+objects/objMenu.object.gmx
+scripts/Menu.gml
